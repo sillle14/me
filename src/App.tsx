@@ -1,30 +1,16 @@
 import React from 'react'
-import { BrowserRouter, Routes,  Link, HashRouter } from 'react-router-dom'
+import { Routes, HashRouter } from 'react-router-dom'
 
+import Home from './components/pages/home'
+import NavBar from './components/navbar'
 
-let Home = (props: any) => (
-  <div>
-    <h1>Home</h1>
-    <nav>
-      <Link to={'/'}>Home</Link> |{" "}
-      <Link to={'dashboard'}>Dashboard</Link>
-    </nav>
-  </div>
+const App = () => (
+    <HashRouter>
+        <NavBar/>
+        <Routes>
+            <Home path="/"/>
+        </Routes>
+    </HashRouter>
 )
 
-let Dash = (props: any) => <div>Dash</div>
-
-function App() {
-  return (
-    <div className="App">
-      <HashRouter>
-      <Routes>
-        <Home path={'/'} />
-        <Dash path={'dashboard'} />
-      </Routes>
-      </HashRouter>
-    </div>
-  );
-}
-
-export default App;
+export default App
