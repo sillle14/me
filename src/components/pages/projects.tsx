@@ -4,6 +4,7 @@ import { Link, Typography } from '@material-ui/core'
 import Page from '../helpers/page'
 import Project from '../helpers/project'
 import lhog from '../../assets/lhog.png'
+import thesis from '../../assets/thesis.pdf'
 import normalization from '../../assets/normalization.png'
 
 const Projects: FunctionComponent<{ path: string }> = () => {
@@ -20,7 +21,9 @@ const Projects: FunctionComponent<{ path: string }> = () => {
                     <Link href="https://boardgamegeek.com/boardgame/42/tigris-euphrates" rel="noopener  noreferrer" target="_blank">Tigris &#38; Euphrates</Link>,
                     but the LHoG framework can support any boardgame.io game.
                 </Typography>
-                <Typography>Check it out here!</Typography>
+                <Typography>
+                    Check it out <Link href="https://lhog.herokuapp.com/#/about" rel="noopener  noreferrer" target="_blank">here</Link>!
+                </Typography>
                 <br />
                 <Typography>
                     LHoG runs on a free tier Heroku dyno, so the initial load may take a minute. Also note that I've only
@@ -35,6 +38,9 @@ const Projects: FunctionComponent<{ path: string }> = () => {
                 </Typography>
                 <Typography>
                     I also made a conjecture about the geometry of these groups, which I backed up with some computational evidence.
+                </Typography>
+                <Typography>
+                    Read the full paper <Link href={thesis} target="_blank">here</Link>.
                 </Typography>
             </Project>
         </Page>
