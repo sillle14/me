@@ -7,7 +7,7 @@ import Home from './components/pages/home'
 import NavBar from './components/navbar'
 import Projects from './components/pages/projects'
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
     root: {
         position: 'absolute',
         minHeight: '100%',
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
         boxSizing: 'border-box',
         background: green[100]
     }
-}))
+})
 
 const App = () => {
 

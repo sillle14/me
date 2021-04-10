@@ -4,8 +4,8 @@ import { Link, Typography } from '@material-ui/core'
 import Page from '../helpers/page'
 import Project from '../helpers/project'
 import lhog from '../../assets/lhog.png'
-import thesis from '../../assets/thesis.pdf'
 import normalization from '../../assets/normalization.png'
+import thesis from '../../assets/thesis.pdf'
 
 const Projects: FunctionComponent<{ path: string }> = () => {
 
@@ -22,7 +22,7 @@ const Projects: FunctionComponent<{ path: string }> = () => {
                     but the LHoG framework can support any boardgame.io game.
                 </Typography>
                 <Typography>
-                    Check it out <Link href="https://lhog.herokuapp.com/#/about" rel="noopener  noreferrer" target="_blank">here</Link>!
+                    Check it out <Link href="https://lhog.herokuapp.com/" rel="noopener  noreferrer" target="_blank">here</Link>!
                 </Typography>
                 <br />
                 <Typography>
