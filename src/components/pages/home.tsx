@@ -1,17 +1,42 @@
 import React, { FunctionComponent } from 'react'
-import {
-    Container,
-    Paper,
-    Typography
-} from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
+import { Grid, Link, Typography, useMediaQuery } from '@material-ui/core'
+import { makeStyles, useTheme } from '@material-ui/core/styles'
 
-const Home: FunctionComponent<{path: string}> = () => (
-    <Container maxWidth="md">
-        <Paper>
+import Page from '../helpers/page'
+import headshot from '../../assets/headshot.jpg'
+
+const useStyles = makeStyles((theme) => ({
+    text: {
+        '& p': { fontSize: 'large' }
+    },
+    image: {
+        width: '100%',
+    }
+}))
+
+const Home: FunctionComponent<{ path: string }> = () => {
+
+    const classes = useStyles()
+    const theme = useTheme()
+    const desktop = useMediaQuery(theme.breakpoints.up('sm'))
+
+    return (
+        <Page maxWidth="md">
             <Typography variant="h2" component="h1">Lewis Silletto</Typography>
-        </Paper>
-    </Container>
-)
+            <Grid container spacing={desktop ? 10 : 2}>
+                <Grid item xs={12} sm={6}>
+                    <img className={classes.image} src={headshot} alt="Lewis hiking" />
+                </Grid>
+                <Grid item xs={12} sm={6} className={classes.text}>
+                    <Typography>Software developer at <Link href="https://caredash.com">CareDash</Link> with a background in math and data science.</Typography>
+                    <br />
+                    <Typography>Experience with Python, React, Docker, Redis, Postgres, and more.</Typography>
+                    <br />
+                    <Typography>Loves hiking, climbing, board games, and cooking.</Typography>
+                </Grid>
+            </Grid>
+        </Page>
+    )
+}
 
 export default Home

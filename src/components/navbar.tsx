@@ -8,11 +8,15 @@ import {
 import { makeStyles } from '@material-ui/core/styles'
 import { GitHub, LinkedIn, Email } from '@material-ui/icons'
 import { Link as RouterLink } from 'react-router-dom'
+import green from '@material-ui/core/colors/green'
 
 import ContactLink from './helpers/contactLink'
 
 
 const useStyles = makeStyles((theme) => ({
+    root: {
+        background: green[900]
+    },
     bar: {
         justifyContent: 'space-between',
         overflow: 'auto',
@@ -28,7 +32,7 @@ const NavBar = () => {
     const classes = useStyles()
 
     return (
-        <AppBar>
+        <AppBar className={classes.root}>
             <Toolbar className={classes.bar}>
                 <Box>
                     <Link to="/" component={RouterLink} color="inherit" className={classes.navLinks}>Home</Link>
