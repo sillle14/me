@@ -15,7 +15,7 @@ const Projects: FunctionComponent<{ path: string }> = () => {
             <Project title="Lewis' House of Games" imgSrc={lhog} altText="Lewis' House of Games Screenshot">
                 <Typography>
                     A lobby framework for <Link href="https://boardgame.io/" rel="noopener" target="_blank">boardgame.io</Link> games
-                    with basic login, persistant storage, and a simple leaderboard. I've implemented&nbsp;
+                    with basic login, persistent storage, and a simple leaderboard. I've implemented&nbsp;
                     <Link href="https://boardgamegeek.com/boardgame/148228/splendor" rel="noopener" target="_blank">Splendor</Link>,&nbsp;
                     <Link href="https://boardgamegeek.com/boardgame/2651/power-grid" rel="noopener" target="_blank">Power Grid</Link>, and&nbsp;
                     <Link href="https://boardgamegeek.com/boardgame/42/tigris-euphrates" rel="noopener  noreferrer" target="_blank">Tigris &#38; Euphrates</Link>,
@@ -27,7 +27,7 @@ const Projects: FunctionComponent<{ path: string }> = () => {
                 <br />
                 <Typography>
                     LHoG runs on a free tier Heroku dyno, so the initial load may take a minute. Also note that I've only
-                    developed these game for Chrome on desktop. Your mileage may vary on other browsers!
+                    developed these games for Chrome on desktop. Your mileage may vary on other browsers!
                 </Typography>
             </Project>
             <Project title="A Parameterization of Convex Projective Groups" imgSrc={normalization} altText="Triangle group normalization">
