@@ -22,7 +22,7 @@ const Projects: FunctionComponent<{ path: string }> = () => {
                     but the LHoG framework can support any boardgame.io game.
                 </Typography>
                 <Typography>
-                    Check it out <Link href="https://lhog.herokuapp.com/" rel="noopener  noreferrer" target="_blank">here</Link>!
+                    Check it out <Link href="https://lhog.lewissilletto.com/" rel="noopener  noreferrer" target="_blank">here</Link>!
                 </Typography>
                 <br />
                 <Typography>
