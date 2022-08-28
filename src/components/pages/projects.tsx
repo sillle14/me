@@ -26,8 +26,7 @@ const Projects: FunctionComponent<{ path: string }> = () => {
                 </Typography>
                 <br />
                 <Typography>
-                    LHoG runs on a free tier Heroku dyno, so the initial load may take a minute. Also note that I've only
-                    developed these games for Chrome on desktop. Your mileage may vary on other browsers!
+                    Note that I've only developed these games for Chrome on desktop. Your mileage may vary on other browsers!
                 </Typography>
             </Project>
             <Project title="A Parameterization of Convex Projective Groups" imgSrc={normalization} altText="Triangle group normalization">
