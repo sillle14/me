@@ -7,7 +7,7 @@ import lhog from '../../assets/lhog.png'
 import normalization from '../../assets/normalization.png'
 import thesis from '../../assets/thesis.pdf'
 
-const Projects: FunctionComponent<{ path: string }> = () => {
+const Projects: FunctionComponent = () => {
 
     return (
         <Page maxWidth="md">

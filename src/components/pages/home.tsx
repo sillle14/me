@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }))
 
-const Home: FunctionComponent<{ path: string }> = () => {
+const Home: FunctionComponent = () => {
 
     const classes = useStyles()
     const theme = useTheme()

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, HashRouter } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom'
 import { makeStyles } from '@material-ui/core/styles'
 import green from '@material-ui/core/colors/green'
 
@@ -25,8 +25,8 @@ const App = () => {
         <HashRouter><div className={classes.root}>
             <NavBar />
             <Routes>
-                <Home path="/" />
-                <Projects path="projects" />
+                <Route path="/" element={<Home/>}/>
+                <Route path="projects" element={<Projects/>}/>
             </Routes>
         </div></HashRouter>
     )
