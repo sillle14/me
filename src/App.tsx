@@ -1,11 +1,21 @@
 import React from 'react'
 import { Routes, Route, HashRouter } from 'react-router-dom'
-import { makeStyles } from '@material-ui/core/styles'
-import green from '@material-ui/core/colors/green'
+import { makeStyles, ThemeProvider, Theme, StyledEngineProvider } from '@mui/styles';
+import { createTheme } from '@mui/material'
+import green from '@mui/material/colors/green'
 
 import Home from './components/pages/home'
 import NavBar from './components/navbar'
 import Projects from './components/pages/projects'
+
+
+declare module '@mui/styles/defaultTheme' {
+  // eslint-disable-next-line @typescript-eslint/no-empty-interface
+  interface DefaultTheme extends Theme {}
+}
+
+
+const theme = createTheme();
 
 const useStyles = makeStyles({
     root: {
@@ -22,14 +32,16 @@ const App = () => {
     const classes = useStyles()
 
     return (
-        <HashRouter><div className={classes.root}>
-            <NavBar />
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="projects" element={<Projects/>}/>
-            </Routes>
-        </div></HashRouter>
-    )
+        <StyledEngineProvider injectFirst>
+            <ThemeProvider theme={theme}><HashRouter><div className={classes.root}>
+                <NavBar />
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="projects" element={<Projects/>}/>
+                </Routes>
+            </div></HashRouter></ThemeProvider>
+        </StyledEngineProvider>
+    );
 }
 
 export default App

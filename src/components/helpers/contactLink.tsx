@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react'
-import { IconButton } from '@material-ui/core'
+import { IconButton } from '@mui/material'
 
 type ContactLinkProps = {
     ariaLabel: string,
@@ -13,7 +13,7 @@ const ContactLink: FunctionComponent<ContactLinkProps> = ({ ariaLabel, href, chi
         target="_blank"
         rel="noopener noreferrer"
         color="inherit"
-    >
+        size="large">
         {children}
     </IconButton>
 )

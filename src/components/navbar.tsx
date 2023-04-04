@@ -4,11 +4,11 @@ import {
     Box,
     Link,
     Toolbar,
-} from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
-import { GitHub, LinkedIn, Email } from '@material-ui/icons'
+} from '@mui/material'
+import { makeStyles } from '@mui/styles'
+import { GitHub, LinkedIn, Email } from '@mui/icons-material'
 import { Link as RouterLink } from 'react-router-dom'
-import green from '@material-ui/core/colors/green'
+import green from '@mui/material/colors/green'
 
 import ContactLink from './helpers/contactLink'
 

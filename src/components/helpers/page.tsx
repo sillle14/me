@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
-import { Container, Paper } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
+import { Container, Paper } from '@mui/material'
+import { makeStyles } from '@mui/styles'
 
 import Copyright from './copyright'
 
@@ -13,9 +13,9 @@ const useStyles = makeStyles((theme) => ({
         }
     },
     paper: {
-        padding: `${theme.spacing(2)}px ${theme.spacing(4)}px`,
+        padding: `${theme.spacing(2)} ${theme.spacing(4)}`,
         [theme.breakpoints.up('sm')]: {
-            padding: `${theme.spacing(4)}px ${theme.spacing(6)}px`
+            padding: `${theme.spacing(4)} ${theme.spacing(6)}`
         }
     }
 }))

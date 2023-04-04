@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react'
-import { Link, Typography } from '@material-ui/core'
+import { Link, Typography } from '@mui/material'
 
 import Page from '../helpers/page'
 import Project from '../helpers/project'

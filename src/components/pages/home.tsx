@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
-import { Grid, Link, Typography, useMediaQuery } from '@material-ui/core'
-import { makeStyles, useTheme } from '@material-ui/core/styles'
+import { Grid, Link, Typography, useMediaQuery } from '@mui/material'
+import { makeStyles, useTheme } from '@mui/styles'
 
 import Page from '../helpers/page'
 import headshot from '../../assets/headshot.jpg'
