@@ -1,4 +1,3 @@
-import React from 'react'
 import { Routes, Route, HashRouter } from 'react-router-dom'
 import { Theme, StyledEngineProvider } from '@mui/material/styles'
 import { makeStyles } from '@mui/styles';

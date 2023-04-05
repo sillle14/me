@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import { FunctionComponent } from 'react';
 import { Link, Typography } from '@mui/material'
 
 import Page from '../helpers/page'

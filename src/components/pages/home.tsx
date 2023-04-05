@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react'
+import { FunctionComponent } from 'react';
 import { Grid, Link, Typography, useMediaQuery } from '@mui/material'
 import { makeStyles, useTheme } from '@mui/styles'
 
