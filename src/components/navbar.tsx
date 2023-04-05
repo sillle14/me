@@ -35,8 +35,18 @@ const NavBar = () => {
         <AppBar className={classes.root}>
             <Toolbar className={classes.bar}>
                 <Box>
-                    <Link to="/" component={RouterLink} color="inherit" className={classes.navLinks}>Home</Link>
-                    <Link to="projects" component={RouterLink} color="inherit" className={classes.navLinks}>Projects</Link>
+                    <Link
+                        to="/"
+                        component={RouterLink}
+                        color="inherit"
+                        className={classes.navLinks}
+                        underline="hover">Home</Link>
+                    <Link
+                        to="projects"
+                        component={RouterLink}
+                        color="inherit"
+                        className={classes.navLinks}
+                        underline="hover">Projects</Link>
                 </Box>
                 <Box display="flex">
                     <ContactLink ariaLabel="GitHub" href="https://github.com/sillle14"><GitHub /></ContactLink>
@@ -45,7 +55,7 @@ const NavBar = () => {
                 </Box>
             </Toolbar>
         </AppBar>
-    )
+    );
 }
 
 export default NavBar

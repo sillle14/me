@@ -28,7 +28,7 @@ const Home: FunctionComponent = () => {
                     <img className={classes.image} src={headshot} alt="Lewis hiking" />
                 </Grid>
                 <Grid item xs={12} sm={6} className={classes.text}>
-                    <Typography>Software engineer at <Link href="https://inboxhealth.com">Inbox Health</Link> with a background in math and data science.</Typography>
+                    <Typography>Software engineer at <Link href="https://inboxhealth.com" underline="hover">Inbox Health</Link> with a background in math and data science.</Typography>
                     <br />
                     <Typography>Experience with Python, React, Docker, Redis, Postgres, and more.</Typography>
                     <br />
@@ -36,7 +36,7 @@ const Home: FunctionComponent = () => {
                 </Grid>
             </Grid>
         </Page>
-    )
+    );
 }
 
 export default Home

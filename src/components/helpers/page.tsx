@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
         }
     }
 }))
-const Page: FunctionComponent<{ maxWidth: "sm" | "md" }> = ({ maxWidth, children }) => {
+const Page: FunctionComponent<{ maxWidth: "sm" | "md" | "lg" }> = ({ maxWidth, children }) => {
 
     const classes = useStyles()
 

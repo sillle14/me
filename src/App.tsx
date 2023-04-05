@@ -1,7 +1,8 @@
 import React from 'react'
 import { Routes, Route, HashRouter } from 'react-router-dom'
-import { makeStyles, ThemeProvider, Theme, StyledEngineProvider } from '@mui/styles';
-import { createTheme } from '@mui/material'
+import { Theme, StyledEngineProvider } from '@mui/material/styles'
+import { makeStyles } from '@mui/styles';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import green from '@mui/material/colors/green'
 
 import Home from './components/pages/home'
