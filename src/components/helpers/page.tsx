@@ -1,35 +1,29 @@
 import { FunctionComponent } from 'react';
-import { Container, Paper } from '@mui/material'
-import { makeStyles } from '@mui/styles'
+import { Container, Paper, styled } from '@mui/material'
 
 import Copyright from './copyright'
 
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        marginTop: theme.spacing(13),
-        [theme.breakpoints.up('sm')]: {
-            marginTop: theme.spacing(18)
-        }
-    },
-    paper: {
-        padding: `${theme.spacing(2)} ${theme.spacing(4)}`,
-        [theme.breakpoints.up('sm')]: {
-            padding: `${theme.spacing(4)} ${theme.spacing(6)}`
-        }
+const StyledContainer = styled(Container)(({theme}) => ({
+    marginTop: theme.spacing(13),
+    [theme.breakpoints.up('sm')]: {
+        marginTop: theme.spacing(18)
+    }
+}))
+const StyledPaper = styled(Paper)(({theme}) => ({
+    padding: `${theme.spacing(2)} ${theme.spacing(4)}`,
+    [theme.breakpoints.up('sm')]: {
+        padding: `${theme.spacing(4)} ${theme.spacing(6)}`
     }
 }))
 const Page: FunctionComponent<{ maxWidth: "sm" | "md" | "lg" }> = ({ maxWidth, children }) => {
 
-    const classes = useStyles()
-
     return (
         <>
-            <Container maxWidth={maxWidth} className={classes.root}>
-                <Paper className={classes.paper}>
+            <StyledContainer maxWidth={maxWidth}>
+                <StyledPaper>
                     {children}
-                </Paper>
-            </Container>
+                </StyledPaper>
+            </StyledContainer>
             <Copyright />
         </>
     )
