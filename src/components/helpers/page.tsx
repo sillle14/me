@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'react';
+import { ReactNode } from 'react';
 import { Container, Paper, styled } from '@mui/material'
 
 import Copyright from './copyright'
@@ -15,7 +15,7 @@ const StyledPaper = styled(Paper)(({theme}) => ({
         padding: `${theme.spacing(4)} ${theme.spacing(6)}`
     }
 }))
-const Page: FunctionComponent<{ maxWidth: "sm" | "md" | "lg" }> = ({ maxWidth, children }) => {
+const Page = ({ maxWidth, children }: { maxWidth: "sm" | "md" | "lg",  children: ReactNode }) => {
 
     return (
         <>

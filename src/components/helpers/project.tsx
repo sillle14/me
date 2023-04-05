@@ -1,4 +1,4 @@
-import { FunctionComponent } from 'react';
+import { ReactNode } from 'react';
 import { Grid, Typography, styled } from '@mui/material'
 
 const StyledGrid = styled(Grid)(({theme}) => ({
@@ -7,8 +7,8 @@ const StyledGrid = styled(Grid)(({theme}) => ({
 const StyledImage = styled('img')({
     width: '100%',
 })
-
-const Project: FunctionComponent<{ title: string, imgSrc: string, altText: string }> = ({ title, imgSrc, altText, children }) => {
+type ProjectProps = { title: string, imgSrc: string, altText: string, children: ReactNode }
+const Project = ({ title, imgSrc, altText, children }: ProjectProps) => {
 
     return (
         <StyledGrid container spacing={2}>

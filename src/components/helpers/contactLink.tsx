@@ -1,11 +1,12 @@
-import { FunctionComponent } from 'react';
+import { ReactNode } from 'react';
 import { IconButton } from '@mui/material'
 
 type ContactLinkProps = {
     ariaLabel: string,
-    href: string
+    href: string,
+    children: ReactNode
 }
-const ContactLink: FunctionComponent<ContactLinkProps> = ({ ariaLabel, href, children }) => (
+const ContactLink = ({ ariaLabel, href, children }: ContactLinkProps) => (
     <IconButton
         aria-label={ariaLabel}
         component="a"
