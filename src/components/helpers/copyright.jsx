@@ -1,18 +1,11 @@
-import React from 'react'
-import { Typography } from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
+import { Typography, styled } from '@mui/material'
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        margin: theme.spacing(3, 'auto'),
-        fontSize: 'smaller',
-        opacity: 0.5
-    }
+const Root = styled(Typography)(({theme}) => ({
+    margin: theme.spacing(3, 'auto'),
+    fontSize: 'smaller',
+    opacity: 0.5
 }))
 
 export default function Copyright() {
-
-    const classes = useStyles()
-
-    return <Typography align="center" className={classes.root}>{`© ${new Date().getFullYear()} Lewis Silletto`}</Typography>
+    return <Root align="center">{`© ${new Date().getFullYear()} Lewis Silletto`}</Root>
 }

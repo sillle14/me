@@ -1,5 +1,5 @@
-import React, { FunctionComponent } from 'react'
-import { Link, Typography } from '@material-ui/core'
+import { FunctionComponent } from 'react';
+import { Link, Typography } from '@mui/material'
 
 import Page from '../helpers/page'
 import Project from '../helpers/project'
@@ -7,22 +7,42 @@ import lhog from '../../assets/lhog.png'
 import normalization from '../../assets/normalization.png'
 import thesis from '../../assets/thesis.pdf'
 
-const Projects: FunctionComponent<{ path: string }> = () => {
+const Projects: FunctionComponent = () => {
 
     return (
-        <Page maxWidth="md">
+        <Page maxWidth="lg">
             <Typography variant="h3" component="h1">Projects</Typography>
             <Project title="Lewis' House of Games" imgSrc={lhog} altText="Lewis' House of Games Screenshot">
                 <Typography>
-                    A lobby framework for <Link href="https://boardgame.io/" rel="noopener" target="_blank">boardgame.io</Link> games
+                    A lobby framework for <Link
+                    href="https://boardgame.io/"
+                    rel="noopener"
+                    target="_blank"
+                    underline="hover">boardgame.io</Link> games
                     with basic login, persistent storage, and a simple leaderboard. I've implemented&nbsp;
-                    <Link href="https://boardgamegeek.com/boardgame/148228/splendor" rel="noopener" target="_blank">Splendor</Link>,&nbsp;
-                    <Link href="https://boardgamegeek.com/boardgame/2651/power-grid" rel="noopener" target="_blank">Power Grid</Link>, and&nbsp;
-                    <Link href="https://boardgamegeek.com/boardgame/42/tigris-euphrates" rel="noopener  noreferrer" target="_blank">Tigris &#38; Euphrates</Link>,
+                    <Link
+                        href="https://boardgamegeek.com/boardgame/148228/splendor"
+                        rel="noopener"
+                        target="_blank"
+                        underline="hover">Splendor</Link>,&nbsp;
+                    <Link
+                        href="https://boardgamegeek.com/boardgame/2651/power-grid"
+                        rel="noopener"
+                        target="_blank"
+                        underline="hover">Power Grid</Link>, and&nbsp;
+                    <Link
+                        href="https://boardgamegeek.com/boardgame/42/tigris-euphrates"
+                        rel="noopener  noreferrer"
+                        target="_blank"
+                        underline="hover">Tigris &#38; Euphrates</Link>,
                     but the LHoG framework can support any boardgame.io game.
                 </Typography>
                 <Typography>
-                    Check it out <Link href="https://lhog.lewissilletto.com/" rel="noopener  noreferrer" target="_blank">here</Link>!
+                    Check it out <Link
+                    href="https://lhog.lewissilletto.com/"
+                    rel="noopener  noreferrer"
+                    target="_blank"
+                    underline="hover">here</Link>!
                 </Typography>
                 <br />
                 <Typography>
@@ -39,11 +59,11 @@ const Projects: FunctionComponent<{ path: string }> = () => {
                     I also made a conjecture about the geometry of these groups, which I backed up with some computational evidence.
                 </Typography>
                 <Typography>
-                    Read the full paper <Link href={thesis} target="_blank">here</Link>.
+                    Read the full paper <Link href={thesis} target="_blank" underline="hover">here</Link>.
                 </Typography>
             </Project>
         </Page>
-    )
+    );
 }
 
 export default Projects

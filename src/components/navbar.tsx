@@ -1,51 +1,55 @@
-import React from 'react'
 import {
     AppBar,
     Box,
     Link,
     Toolbar,
-} from '@material-ui/core'
-import { makeStyles } from '@material-ui/core/styles'
-import { GitHub, LinkedIn, Email } from '@material-ui/icons'
+    styled
+} from '@mui/material'
+import { GitHub, LinkedIn, Email } from '@mui/icons-material'
 import { Link as RouterLink } from 'react-router-dom'
-import green from '@material-ui/core/colors/green'
+import green from '@mui/material/colors/green'
 
 import ContactLink from './helpers/contactLink'
 
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        background: green[900]
-    },
-    bar: {
-        justifyContent: 'space-between',
-        overflow: 'auto',
-        whiteSpace: 'nowrap'
-    },
-    navLinks: {
+const StyledAppBar = styled(AppBar)({
+    background: green[900]
+})
+const StyledToolbar = styled(Toolbar)({
+    justifyContent: 'space-between',
+    overflow: 'auto',
+    whiteSpace: 'nowrap'
+})
+const StyledLinkBox = styled(Box)(({theme}) => ({
+    '& a': {
         fontSize: 'x-large',
         marginRight: theme.spacing(2)
     }
 }))
+
 const NavBar = () => {
-
-    const classes = useStyles()
-
     return (
-        <AppBar className={classes.root}>
-            <Toolbar className={classes.bar}>
-                <Box>
-                    <Link to="/" component={RouterLink} color="inherit" className={classes.navLinks}>Home</Link>
-                    <Link to="projects" component={RouterLink} color="inherit" className={classes.navLinks}>Projects</Link>
-                </Box>
+        <StyledAppBar>
+            <StyledToolbar>
+                <StyledLinkBox>
+                    <Link
+                        to="/"
+                        component={RouterLink}
+                        color="inherit"
+                        underline="hover">Home</Link>
+                    <Link
+                        to="projects"
+                        component={RouterLink}
+                        color="inherit"
+                        underline="hover">Projects</Link>
+                </StyledLinkBox>
                 <Box display="flex">
                     <ContactLink ariaLabel="GitHub" href="https://github.com/sillle14"><GitHub /></ContactLink>
                     <ContactLink ariaLabel="LinkedIn" href="https://www.linkedin.com/in/lewis-silletto/"><LinkedIn /></ContactLink>
                     <ContactLink ariaLabel="Email Me" href="mailto:lewis.silletto@gmail.com"><Email /></ContactLink>
                 </Box>
-            </Toolbar>
-        </AppBar>
-    )
+            </StyledToolbar>
+        </StyledAppBar>
+    );
 }
 
 export default NavBar
