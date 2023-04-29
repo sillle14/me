@@ -5,6 +5,7 @@ import green from '@mui/material/colors/green'
 import Home from './components/pages/home'
 import NavBar from './components/navbar'
 import Projects from './components/pages/projects'
+import RoadTrip from './components/pages/roadTrip'
 
 const theme = createTheme();
 
@@ -25,6 +26,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="projects" element={<Projects/>}/>
+                    <Route path="road-trip/*" element={<RoadTrip/>}/>
                 </Routes>
             </Root></HashRouter></ThemeProvider>
         </StyledEngineProvider>
