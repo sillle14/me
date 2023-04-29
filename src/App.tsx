@@ -26,7 +26,7 @@ const App = () => {
                 <Routes>
                     <Route path="/" element={<Home/>}/>
                     <Route path="projects" element={<Projects/>}/>
-                    <Route path="road-trip/*" element={<RoadTrip/>}/>
+                    {/* <Route path="road-trip/*" element={<RoadTrip/>}/> */}
                 </Routes>
             </Root></HashRouter></ThemeProvider>
         </StyledEngineProvider>
