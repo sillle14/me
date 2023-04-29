@@ -58,9 +58,7 @@ const posts = [
         content: [
             {
                 type: 'p' as 'p',
-                text: 'This is the first paragraph. On this first day of driving, we did a bunch of things. Also, francesca is the ' +
-                'best cat ever and we miss her already. Also, there are some more things to say. And we also want to keep going with this ' +
-                'blog and yaddy yaddy yah and etc etc. Is this enough to break the line?'
+                text: 'Testing cache busting'
             },
             {
                 type: 'img' as 'img',
