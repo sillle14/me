@@ -23,9 +23,9 @@ const Home: FunctionComponent = () => {
                     <StyledImage src={headshot} alt="Lewis hiking" />
                 </Grid>
                 <StyledGrid item xs={12} sm={6}>
-                    <Typography>Software engineer at <Link href="https://inboxhealth.com" underline="hover">Inbox Health</Link> with a background in math and data science.</Typography>
+                    <Typography>Software engineer with a background in math and data science.</Typography>
                     <br />
-                    <Typography>Experience with Python, React, Docker, Redis, Postgres, and more.</Typography>
+                    <Typography>Experience with Ruby on Rails, Postgres, Python, React, Docker, Redis, and more.</Typography>
                     <br />
                     <Typography>Loves hiking, climbing, board games, and cooking.</Typography>
                 </StyledGrid>

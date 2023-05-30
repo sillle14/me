@@ -4,7 +4,7 @@ import { Link as RouterLink } from 'react-router-dom'
 
 const StyledImage = styled('img')(({theme}) => ({
     width: '100%',
-    // padding: `${theme.spacing(2)} 0`
+    paddingTop: `${theme.spacing(2)}`
 }))
 
 const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, next?: string}) => {
@@ -13,7 +13,7 @@ const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, ne
                          <Typography sx={{fontWeight: 'bold'}}>{entry.drivingMiles} miles driven</Typography> :
                          null
 
-    const hikingMiles = entry.drivingMiles ? 
+    const hikingMiles = entry.hikingMiles ? 
                         <Typography sx={{fontWeight: 'bold'}}>{entry.hikingMiles} miles hiked</Typography> :
                         null
 

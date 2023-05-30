@@ -1,6 +1,6 @@
 import { Grid, Typography, styled, Link } from "@mui/material";
 import { Link as RouterLink } from 'react-router-dom'
-import odometer from '../../assets/road-trip/odometer.jpeg'
+import start from '../../assets/road-trip/start.jpeg'
 
 const StyledImage = styled('img')(({theme}) => ({
     width: '100%',
@@ -8,7 +8,7 @@ const StyledImage = styled('img')(({theme}) => ({
 }))
 
 const Main = () => <>
-    <StyledImage src={odometer} alt="starting odometer" />
+    <StyledImage src={start} alt="Lewis and Julia in the car about to start the trip." />
     <Typography sx={{mb: 1}}>We're driving across the country! Follow along on our adventures.</Typography>
     <hr></hr>
     <Grid container rowSpacing={1}>
