@@ -6,6 +6,12 @@ const StyledImage = styled('img')(({theme}) => ({
     width: '100%',
     paddingTop: `${theme.spacing(2)}`
 }))
+const VertImage = styled('img')(({theme}) => ({
+    width: '100%',
+    maxWidth: '600px',
+    paddingTop: `${theme.spacing(2)}`
+}))
+
 
 const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, next?: string}) => {
 
@@ -21,22 +27,23 @@ const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, ne
         if (content.type === 'p') {
             return <Typography key={i}>{content.text}</Typography>
         } else {
-            return <div key={i}>
-                <StyledImage alt={content.alt} src={content.source}/>
+            const image = content.vert ? <VertImage alt={content.alt} src={content.source}/> : <StyledImage alt={content.alt} src={content.source}/>
+            return <Box key={i} display="flex" flexDirection="column" alignItems="center">
+                {image}
                 <Box sx={{textAlign: 'center', typography: 'caption'}}>{content.caption}</Box>
-            </div>
+            </Box>
         }
     })
 
     const navigation = []
     if (previous) {
-        navigation.push(<Link to={`../${previous}`} component={RouterLink} underline="hover">Previous</Link>)
+        navigation.push(<Link key="prev" to={`../${previous}`} component={RouterLink} underline="hover">Previous</Link>)
     }
     if (previous && next) {
-        navigation.push(<span>&nbsp;|&nbsp;</span>)
+        navigation.push(<span key="space">&nbsp;|&nbsp;</span>)
     }
     if (next) {
-        navigation.push(<Link to={`../${next}`} component={RouterLink} underline="hover">Next</Link>)
+        navigation.push(<Link key="next" to={`../${next}`} component={RouterLink} underline="hover">Next</Link>)
     }
 
     return <>

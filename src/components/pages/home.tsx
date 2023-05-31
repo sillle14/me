@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import { Grid, Link, Typography, useMediaQuery, useTheme, styled } from '@mui/material'
+import { Grid, Typography, useMediaQuery, useTheme, styled } from '@mui/material'
 
 import Page from '../helpers/page'
 import headshot from '../../assets/headshot.jpg'

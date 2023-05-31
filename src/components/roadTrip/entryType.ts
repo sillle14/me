@@ -8,6 +8,7 @@ type Image = {
     caption: string;
     alt: string;
     source: string;
+    vert?: boolean;
 }
 
 export type EntryType = {

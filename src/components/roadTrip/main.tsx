@@ -15,6 +15,7 @@ const Main = () => <>
         <Grid item xs={12} sm={4}>
             <Typography variant="h5">Heading West</Typography>
             <Link to="day-1" component={RouterLink} underline="hover">May 29th - Day 1</Link>
+            <Link to="day-2" component={RouterLink} underline="hover">May 30th - Day 2</Link>
         </Grid>
         {/* <Grid item xs={12} sm={4}>
             <Typography variant="h5">Rocky Mountain National Park</Typography>
