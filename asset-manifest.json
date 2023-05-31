@@ -1,8 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.fba284af.js",
+    "main.js": "/static/js/main.ec142724.js",
+    "static/media/rock_garden.jpeg": "/static/media/rock_garden.c9d659a6ed660032bf06.jpeg",
+    "static/media/pitchfork.jpeg": "/static/media/pitchfork.81540a2c36d0ef926aad.jpeg",
+    "static/media/rebert.jpeg": "/static/media/rebert.440553d7f22c43a499fa.jpeg",
     "static/media/nay_aug_falls.jpeg": "/static/media/nay_aug_falls.e73f8a3f2129865b7486.jpeg",
+    "static/media/dianthus_barbatus.jpeg": "/static/media/dianthus_barbatus.034e0adc148b9d5ebddd.jpeg",
+    "static/media/st_louis_arch.jpeg": "/static/media/st_louis_arch.8f3e61f39019bf78db33.jpeg",
     "static/media/julia_paper_tower.jpeg": "/static/media/julia_paper_tower.9bfdb0334b29ca8658cb.jpeg",
     "static/media/start.jpeg": "/static/media/start.971c3c6a65a6abb2d3a1.jpeg",
     "static/media/thesis.pdf": "/static/media/thesis.8f4d010aea208d8f9af4.pdf",
@@ -11,10 +16,10 @@
     "static/media/normalization.png": "/static/media/normalization.3948f46ed38aab63d5bd.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.fba284af.js.map": "/static/js/main.fba284af.js.map"
+    "main.ec142724.js.map": "/static/js/main.ec142724.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.fba284af.js"
+    "static/js/main.ec142724.js"
   ]
 }
