@@ -5,6 +5,8 @@ import dianthus_barbatus from '../../assets/road-trip/dianthus_barbatus.jpeg'
 import rock_garden from '../../assets/road-trip/rock_garden.jpeg'
 import st_louis_arch from '../../assets/road-trip/st_louis_arch.jpeg'
 import pitchfork from '../../assets/road-trip/pitchfork.jpeg'
+import st_louis_sculpture from '../../assets/road-trip/st_louis_sculpture.jpeg'
+import fulton_lunch from '../../assets/road-trip/fulton_lunch.jpeg'
 import { EntryType } from './entryType'
 
 const posts: Array<EntryType> = [
@@ -75,7 +77,31 @@ const posts: Array<EntryType> = [
                 caption: 'Just across the Mississippi driving into St. Louis'
             }
         ]
-    }
+    },
+    {
+        date: 'May 31st',
+        day: 3,
+        location: 'St. Louis, MO - Kansas City, KS',
+        drivingMiles: 259.6,
+        content: [
+            {
+                type: 'p',
+                text: 'With slightly less driving on our plate today, we spent a couple of hours walking around Forest Park in St. Louis before heading out. Unfortunately we were leaving too early to check out the art museum but still got to see some sculptures and flowers. We drove across Missouri, stopping in Fulton, MO for lunch and then arrived in Kansas City where we spent the evening with Julia\'s extended family, Ruth, David, and Nancy.'
+            },
+            {
+                type: 'img',
+                alt: 'A sculpture in Forest Park, St. Louis.',
+                source: st_louis_sculpture,
+                caption: 'Sculpture garden in Forest Park'
+            },
+            {
+                type: 'img',
+                alt: 'Julia sitting at a picnic table in Fulton, MO with cherries, bread, and hummus.',
+                source: fulton_lunch,
+                caption: 'Lunch in Fulton'
+            },
+        ]
+    },
 ]
 
 export default posts
