@@ -18,6 +18,7 @@ const Main = () => <>
                 <Link to="day-1" component={RouterLink} underline="hover">May 29th - Day 1</Link>
                 <Link to="day-2" component={RouterLink} underline="hover">May 30th - Day 2</Link>
                 <Link to="day-3" component={RouterLink} underline="hover">May 31th - Day 3</Link>
+                <Link to="day-4" component={RouterLink} underline="hover">June 1st - Day 4</Link>
             </Box>
         </Grid>
         {/* <Grid item xs={12} sm={4}>

@@ -7,6 +7,8 @@ import st_louis_arch from '../../assets/road-trip/st_louis_arch.jpeg'
 import pitchfork from '../../assets/road-trip/pitchfork.jpeg'
 import st_louis_sculpture from '../../assets/road-trip/st_louis_sculpture.jpeg'
 import fulton_lunch from '../../assets/road-trip/fulton_lunch.jpeg'
+import buckeye_butterfly from '../../assets/road-trip/buckeye_butterfly.jpg'
+import kc_skyline from '../../assets/road-trip/kc_skyline.jpeg'
 import { EntryType } from './entryType'
 
 const posts: Array<EntryType> = [
@@ -99,6 +101,30 @@ const posts: Array<EntryType> = [
                 alt: 'Julia sitting at a picnic table in Fulton, MO with cherries, bread, and hummus.',
                 source: fulton_lunch,
                 caption: 'Lunch in Fulton'
+            },
+        ]
+    },
+    {
+        date: 'June 1st',
+        day: 4,
+        location: 'Kansas City, KS',
+        content: [
+            {
+                type: 'p',
+                text: 'We spent the day seeing the sights and visiting with Julia\'s family in Kansas City. We saw a bunch of beautiful flowers and plants (as well as the resident cat) in Kauffman Memorial Garden, more flowers at the rose garden in Loose Park, and paintings by Thomas Hart Benton (among other artists) at the Nelson-Atkins Museum of Art. We also rode through downtown on the street car, and walked around Union Station, which was one of the best Union Stations I\'ve seen!'
+            },
+            {
+                type: 'img',
+                alt: 'A closeup of a buckeye butterfly on a small plant.',
+                source: buckeye_butterfly,
+                caption: 'Buckeye butterfly in Kauffman Memorial Garden',
+                vert: true
+            },
+            {
+                type: 'img',
+                alt: 'The Kansas City skyline from the World War I memorial.',
+                source: kc_skyline,
+                caption: 'The Kansas City skyline'
             },
         ]
     },
