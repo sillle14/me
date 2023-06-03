@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.b7704b90.js",
+    "main.js": "/static/js/main.b1a2743a.js",
     "static/media/dianthus_barbatus.jpeg": "/static/media/dianthus_barbatus.034e0adc148b9d5ebddd.jpeg",
     "static/media/fulton_lunch.jpeg": "/static/media/fulton_lunch.a87fca2da3d9542fd4e0.jpeg",
     "static/media/buckeye_butterfly.jpg": "/static/media/buckeye_butterfly.cb48be23f068456cc698.jpg",
@@ -21,10 +21,10 @@
     "static/media/normalization.png": "/static/media/normalization.3948f46ed38aab63d5bd.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.b7704b90.js.map": "/static/js/main.b7704b90.js.map"
+    "main.b1a2743a.js.map": "/static/js/main.b1a2743a.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b7704b90.js"
+    "static/js/main.b1a2743a.js"
   ]
 }
