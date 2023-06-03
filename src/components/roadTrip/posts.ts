@@ -9,6 +9,7 @@ import st_louis_sculpture from '../../assets/road-trip/st_louis_sculpture.jpeg'
 import fulton_lunch from '../../assets/road-trip/fulton_lunch.jpeg'
 import buckeye_butterfly from '../../assets/road-trip/buckeye_butterfly.jpg'
 import kc_skyline from '../../assets/road-trip/kc_skyline.jpeg'
+import ks_driving from '../../assets/road-trip/ks_driving.jpeg'
 import { EntryType } from './entryType'
 
 const posts: Array<EntryType> = [
@@ -83,7 +84,7 @@ const posts: Array<EntryType> = [
     {
         date: 'May 31st',
         day: 3,
-        location: 'St. Louis, MO - Kansas City, KS',
+        location: 'St. Louis, MO - Mission, KS',
         drivingMiles: 259.6,
         content: [
             {
@@ -107,7 +108,7 @@ const posts: Array<EntryType> = [
     {
         date: 'June 1st',
         day: 4,
-        location: 'Kansas City, KS',
+        location: 'Kansas City, MO',
         content: [
             {
                 type: 'p',
@@ -125,6 +126,24 @@ const posts: Array<EntryType> = [
                 alt: 'The Kansas City skyline from the World War I memorial.',
                 source: kc_skyline,
                 caption: 'The Kansas City skyline'
+            },
+        ]
+    },
+    {
+        date: 'June 2nd',
+        day: 5,
+        location: 'Mission, KS - Denver, CO',
+        drivingMiles: 610.3,
+        content: [
+            {
+                type: 'p',
+                text: 'Another long driving day today, through all of Kansas and a bit of Colorado. This was the most different from driving back east, with hundreds of miles of grassland and wheat fields. The wide open expanses and enormous sky were spectacular, especially with thunderstorms rolling through. Near Denver, Julia spotted the sign for the "scenic route" along Route 86 which was a nice change from the interstate and very beautiful. And of course no driving day would be complete without a lunch in a park: today we ate in the rain in a park shelter in Hays, KS.'
+            },
+            {
+                type: 'img',
+                alt: 'A selfie taken by Lewis of him and Julia in the car. Julia is driving.',
+                source: ks_driving,
+                caption: 'On the road in West Kansas',
             },
         ]
     },
