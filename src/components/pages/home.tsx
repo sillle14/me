@@ -1,5 +1,6 @@
 import { FunctionComponent } from 'react';
-import { Grid, Typography, useMediaQuery, useTheme, styled } from '@mui/material'
+import { Grid, Link, Typography, useMediaQuery, useTheme, styled } from '@mui/material'
+import { Link as RouterLink } from 'react-router-dom'
 
 import Page from '../helpers/page'
 import headshot from '../../assets/headshot.jpg'
@@ -23,7 +24,10 @@ const Home: FunctionComponent = () => {
                     <StyledImage src={headshot} alt="Lewis hiking" />
                 </Grid>
                 <StyledGrid item xs={12} sm={6}>
-                    <Typography>Software engineer with a background in math and data science.</Typography>
+                    <Typography>Software engineer <Link
+                        to="road-trip"
+                        component={RouterLink}
+                        underline="hover">on a road trip</Link> with a background in math and data science.</Typography>
                     <br />
                     <Typography>Experience with Ruby on Rails, Postgres, Python, React, Docker, Redis, and more.</Typography>
                     <br />
