@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.ddc663e2.js",
-    "static/media/rock_garden.jpeg": "/static/media/rock_garden.c9d659a6ed660032bf06.jpeg",
-    "static/media/pitchfork.jpeg": "/static/media/pitchfork.81540a2c36d0ef926aad.jpeg",
-    "static/media/st_louis_sculpture.jpeg": "/static/media/st_louis_sculpture.1876da7d3d22dc2917b4.jpeg",
-    "static/media/rebert.jpeg": "/static/media/rebert.440553d7f22c43a499fa.jpeg",
-    "static/media/nay_aug_falls.jpeg": "/static/media/nay_aug_falls.e73f8a3f2129865b7486.jpeg",
+    "main.js": "/static/js/main.b7704b90.js",
     "static/media/dianthus_barbatus.jpeg": "/static/media/dianthus_barbatus.034e0adc148b9d5ebddd.jpeg",
     "static/media/fulton_lunch.jpeg": "/static/media/fulton_lunch.a87fca2da3d9542fd4e0.jpeg",
     "static/media/buckeye_butterfly.jpg": "/static/media/buckeye_butterfly.cb48be23f068456cc698.jpg",
     "static/media/kc_skyline.jpeg": "/static/media/kc_skyline.cd7d01771767ea57da7a.jpeg",
     "static/media/st_louis_arch.jpeg": "/static/media/st_louis_arch.8f3e61f39019bf78db33.jpeg",
     "static/media/julia_paper_tower.jpeg": "/static/media/julia_paper_tower.9bfdb0334b29ca8658cb.jpeg",
+    "static/media/st_louis_sculpture.jpeg": "/static/media/st_louis_sculpture.bcaaea46f1cf7f4f3787.jpeg",
+    "static/media/pitchfork.jpeg": "/static/media/pitchfork.caa80da5ed2af045ff6f.jpeg",
+    "static/media/rock_garden.jpeg": "/static/media/rock_garden.3579a584946007546611.jpeg",
+    "static/media/nay_aug_falls.jpeg": "/static/media/nay_aug_falls.7e46758d127c743778a8.jpeg",
+    "static/media/rebert.jpeg": "/static/media/rebert.2ebec1c31f48c8005ecd.jpeg",
+    "static/media/ks_driving.jpeg": "/static/media/ks_driving.30685e3f399e842c3c07.jpeg",
     "static/media/start.jpeg": "/static/media/start.971c3c6a65a6abb2d3a1.jpeg",
     "static/media/thesis.pdf": "/static/media/thesis.8f4d010aea208d8f9af4.pdf",
     "static/media/headshot.jpg": "/static/media/headshot.f3c3cec1cff57c521955.jpg",
@@ -20,10 +21,10 @@
     "static/media/normalization.png": "/static/media/normalization.3948f46ed38aab63d5bd.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.ddc663e2.js.map": "/static/js/main.ddc663e2.js.map"
+    "main.b7704b90.js.map": "/static/js/main.b7704b90.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ddc663e2.js"
+    "static/js/main.b7704b90.js"
   ]
 }
