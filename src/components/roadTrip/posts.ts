@@ -10,6 +10,8 @@ import fulton_lunch from '../../assets/road-trip/fulton_lunch.jpeg'
 import buckeye_butterfly from '../../assets/road-trip/buckeye_butterfly.jpg'
 import kc_skyline from '../../assets/road-trip/kc_skyline.jpeg'
 import ks_driving from '../../assets/road-trip/ks_driving.jpeg'
+import denver_duck from '../../assets/road-trip/denver_duck.jpeg'
+import ira_denver from '../../assets/road-trip/ira_denver.jpeg'
 import { EntryType } from './entryType'
 
 const posts: Array<EntryType> = [
@@ -144,6 +146,29 @@ const posts: Array<EntryType> = [
                 alt: 'A selfie taken by Lewis of him and Julia in the car. Julia is driving.',
                 source: ks_driving,
                 caption: 'On the road in West Kansas',
+            },
+        ]
+    },
+    {
+        date: 'June 3rd',
+        day: 6,
+        location: 'Denver, CO',
+        content: [
+            {
+                type: 'p',
+                text: 'A pretty rainy but nonetheless lovely day in Denver. We checked out a farmers\' market, and walked around a bit downtown (another Union Station!) before meeting up with our friend Ira. He took us to a great lunch spot (I got a beet reuben which was fantastic), the Denver Botanic Gardens, and a brewery.'
+            },
+            {
+                type: 'img',
+                alt: 'A fountain in a pool in the Denver Botanic Gardens. There is a male mallard in the water flapping his wings in the foreground.',
+                source: denver_duck,
+                caption: 'Denver Botanic Gardens',
+            },
+            {
+                type: 'img',
+                alt: 'A selfie of Lewis, Ira, and Julia in the Denver Botanic Gardens.',
+                source: ira_denver,
+                caption: 'There was an adorable duckling in the pond behind us but I couldn\'t get a good picture.',
             },
         ]
     },
