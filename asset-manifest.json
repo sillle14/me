@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.11ed167e.js",
-    "static/media/denver_duck.jpeg": "/static/media/denver_duck.2b2539ca37a9aba12cd0.jpeg",
+    "main.js": "/static/js/main.7865f868.js",
     "static/media/buckeye_butterfly.jpg": "/static/media/buckeye_butterfly.cb48be23f068456cc698.jpg",
     "static/media/kc_skyline.jpeg": "/static/media/kc_skyline.cd7d01771767ea57da7a.jpeg",
     "static/media/ira_denver.jpeg": "/static/media/ira_denver.c5227634702310e072a5.jpeg",
@@ -11,11 +10,14 @@
     "static/media/st_louis_sculpture.jpeg": "/static/media/st_louis_sculpture.bcaaea46f1cf7f4f3787.jpeg",
     "static/media/pitchfork.jpeg": "/static/media/pitchfork.caa80da5ed2af045ff6f.jpeg",
     "static/media/dianthus_barbatus.jpeg": "/static/media/dianthus_barbatus.4b939137b0078a771b98.jpeg",
+    "static/media/denver_duck.jpeg": "/static/media/denver_duck.9712561ce9b4ead5f310.jpeg",
     "static/media/rock_garden.jpeg": "/static/media/rock_garden.3579a584946007546611.jpeg",
     "static/media/nay_aug_falls.jpeg": "/static/media/nay_aug_falls.7e46758d127c743778a8.jpeg",
     "static/media/rebert.jpeg": "/static/media/rebert.2ebec1c31f48c8005ecd.jpeg",
     "static/media/fulton_lunch.jpeg": "/static/media/fulton_lunch.1354832ff927479362f7.jpeg",
     "static/media/ks_driving.jpeg": "/static/media/ks_driving.30685e3f399e842c3c07.jpeg",
+    "static/media/rainy_drive.jpeg": "/static/media/rainy_drive.9d49069a5b3108698e84.jpeg",
+    "static/media/hanna.jpeg": "/static/media/hanna.0547957a288477574493.jpeg",
     "static/media/start.jpeg": "/static/media/start.971c3c6a65a6abb2d3a1.jpeg",
     "static/media/thesis.pdf": "/static/media/thesis.8f4d010aea208d8f9af4.pdf",
     "static/media/headshot.jpg": "/static/media/headshot.f3c3cec1cff57c521955.jpg",
@@ -23,10 +25,10 @@
     "static/media/normalization.png": "/static/media/normalization.3948f46ed38aab63d5bd.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.11ed167e.js.map": "/static/js/main.11ed167e.js.map"
+    "main.7865f868.js.map": "/static/js/main.7865f868.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.11ed167e.js"
+    "static/js/main.7865f868.js"
   ]
 }
