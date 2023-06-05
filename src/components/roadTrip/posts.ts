@@ -12,6 +12,8 @@ import kc_skyline from '../../assets/road-trip/kc_skyline.jpeg'
 import ks_driving from '../../assets/road-trip/ks_driving.jpeg'
 import denver_duck from '../../assets/road-trip/denver_duck.jpeg'
 import ira_denver from '../../assets/road-trip/ira_denver.jpeg'
+import hanna from '../../assets/road-trip/hanna.jpeg'
+import rainy_drive from '../../assets/road-trip/rainy_drive.jpeg'
 import { EntryType } from './entryType'
 
 const posts: Array<EntryType> = [
@@ -169,6 +171,30 @@ const posts: Array<EntryType> = [
                 alt: 'A selfie of Lewis, Ira, and Julia in the Denver Botanic Gardens.',
                 source: ira_denver,
                 caption: 'There was an adorable duckling in the pond behind us but I couldn\'t get a good picture.',
+            },
+        ]
+    },
+    {
+        date: 'June 4th',
+        day: 7,
+        location: 'Denver, CO - Estes Park, CO',
+        drivingMiles: 80.5,
+        content: [
+            {
+                type: 'p',
+                text: 'Another rainy day for our drive up to Estes Park. We tried to take a slightly more scenic route but couldn\'t even really see the mountains due to the rain. We met up with my cousin Hanna for lunch in Boulder. In Estes Park, we got dinner at the "You Need Pie" diner where we did in fact need pie, which was tasty. By the time we were done with dinner, the rain had cleared and we got our first real view of the Rockies! Very excited to get into the park tomorrow.'
+            },
+            {
+                type: 'img',
+                alt: 'A selfie of Lewis, Julia, and Hanna.',
+                source: hanna,
+                caption: 'Rainy in Boulder',
+            },
+            {
+                type: 'img',
+                alt: 'A view out the front windshield of a car. It\'s quite rainy.',
+                source: rainy_drive,
+                caption: 'On the road to Estes Park',
             },
         ]
     },
