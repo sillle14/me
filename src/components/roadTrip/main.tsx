@@ -24,10 +24,14 @@ const Main = () => <>
                 <Link to="day-7" component={RouterLink} underline="hover">June 4th - Day 7</Link>
             </Box>
         </Grid>
-        {/* <Grid item xs={12} sm={4}>
-            <Typography variant="h5">Rocky Mountain National Park</Typography>
-        </Grid>
         <Grid item xs={12} sm={4}>
+            <Typography variant="h5">Rocky Mountain National Park</Typography>
+            <Box display="flex" flexDirection="column">
+                <Link to="day-8" component={RouterLink} underline="hover">June 5th - Day 8</Link>
+                <Link to="day-9" component={RouterLink} underline="hover">June 6th - Day 9</Link>
+            </Box>
+        </Grid>
+        {/* <Grid item xs={12} sm={4}>
             <Typography variant="h5">Yellowstone and the Tetons</Typography>
         </Grid>
         <Grid item xs={12} sm={4}>
