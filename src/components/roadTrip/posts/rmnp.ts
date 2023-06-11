@@ -6,6 +6,16 @@ import dream_lake from '../../../assets/road-trip/dream_lake.jpeg'
 import emerald_lake from '../../../assets/road-trip/emerald_lake.jpeg'
 import waiting_out_hail from '../../../assets/road-trip/waiting_out_hail.jpeg'
 import lake_haiyaha from '../../../assets/road-trip/haiyaha_lake.jpeg'
+import deer_mountain from '../../../assets/road-trip/deer_mountain.jpeg'
+import the_loch from '../../../assets/road-trip/the_loch.jpeg'
+import embryo_lake from '../../../assets/road-trip/embryo_lake.jpeg'
+import fern_blue from '../../../assets/road-trip/fern_blue.jpeg'
+import fern_white from '../../../assets/road-trip/fern_white.jpeg'
+import fern_daisyish from '../../../assets/road-trip/fern_daisyish.jpeg'
+import fern_small_white from '../../../assets/road-trip/fern_small_white.jpeg'
+import fern_dandelion from '../../../assets/road-trip/fern_dandelion.jpeg'
+import fern_orange from '../../../assets/road-trip/fern_orange.jpeg'
+import fern_purple from '../../../assets/road-trip/fern_purple.jpeg'
 
 import { EntryType } from '../entryType'
 
@@ -98,6 +108,116 @@ const rmnp: Array<EntryType> = [
                 alt: 'Julia sitting on a rock with her arms raised in a triumphant position above Lake Haiyaha.',
                 source: lake_haiyaha,
                 caption: 'We made it!',
+            },
+        ]
+    },
+    {
+        date: 'June 7th',
+        day: 10,
+        location: 'Rocky Mountain National Park',
+        hikingMiles: 6,
+        content: [
+            {
+                type: 'p',
+                text: 'Today we hiked Deer Mountain, which we closer to where we were staying and in a region of the park we knew had no snow. Nice to get a break and dry our feet! It was a beautiful sunny morning and all along the trail we had amazing views across the valley to the mountains.'
+            },
+            {
+                type: 'img',
+                alt: 'Julia looking out over a range of snow capped mountains.',
+                source: deer_mountain,
+                caption: 'Enjoying the view.',
+            },
+        ]
+    },
+    {
+        date: 'June 8th',
+        day: 11,
+        location: 'Rocky Mountain National Park',
+        hikingMiles: 7.6,
+        content: [
+            {
+                type: 'p',
+                text: 'We returned to the snowy side of the park today where we hiked up to The Loch along Glacier Gorge Trail. It was dry up until The Loch, but turned to pretty messy wet snow when we started hiking around.'
+            },
+            {
+                type: 'img',
+                alt: 'Lewis and Julia in front of a mountain lake with snowy mountains in the background.',
+                source: the_loch,
+                caption: 'The Loch.',
+            },
+            {
+                type: 'p',
+                text: 'We continued a ways up the trail and turned off on a unmaintained (and certainly unhiked in the past few days) trail. After a little bit of trail finding and only postholing once into a stream, we made it the long feeling tenth of a mile to Embryo Lake, which we had all to ourselves. We had lunch and again made it back to the car before the rain.'
+            },
+            {
+                type: 'img',
+                alt: 'A small lake between boulders and a snowfield.',
+                source: embryo_lake,
+                caption: 'Aptly named Embryo Lake.',
+            },
+        ]
+    },
+    {
+        date: 'June 9th',
+        day: 12,
+        location: 'Rocky Mountain National Park',
+        hikingMiles: 3.3,
+        content: [
+            {
+                type: 'p',
+                text: 'With both of us nursing some aches and pains from walking through snow, we decided to do a bit of a rest day today. We walked the relatively flat park of Fern Lake Trail up to The Pool which was beautiful, especially in the early morning before it got hot. We saw tons of wildflowers along the trail (the area had been burned a few years ago).'
+            },
+            {
+                type: 'img',
+                alt: 'Small blue wildflowers on gravel.',
+                source: fern_blue,
+                caption: '',
+                vert: true
+            },
+            {
+                type: 'img',
+                alt: 'Closeup of a white wildflower with yellow center.',
+                source: fern_white,
+                caption: '',
+                vert: true
+            },
+            {
+                type: 'img',
+                alt: 'Small white wildflowers with yellow centers between the trail and a rock.',
+                source: fern_daisyish,
+                caption: '',
+                vert: true
+            },
+            {
+                type: 'img',
+                alt: 'Close up of very small white wildflowers, some still just buds.',
+                source: fern_small_white,
+                caption: '',
+                vert: true
+            },
+            {
+                type: 'img',
+                alt: 'Close up of two yellow dandelions.',
+                source: fern_dandelion,
+                caption: '',
+            },
+            {
+                type: 'img',
+                alt: 'Close up of many orange wildflowers on one stalk.',
+                source: fern_orange,
+                caption: '',
+                vert: true
+            },
+            {
+                type: 'img',
+                alt: 'Close up of purple wildflowers with yellow centers, with a river in the background.',
+                source: fern_purple,
+                caption: '',
+                vert: true
+            },
+            {
+                type: 'p',
+                text: 'After relaxing at camp for a while, we popped over to Rock Cut Brewery in Estes Park for some beers when it started to look like rain.'
             },
         ]
     },

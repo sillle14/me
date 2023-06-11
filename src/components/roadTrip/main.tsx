@@ -29,6 +29,9 @@ const Main = () => <>
             <Box display="flex" flexDirection="column">
                 <Link to="day-8" component={RouterLink} underline="hover">June 5th - Day 8</Link>
                 <Link to="day-9" component={RouterLink} underline="hover">June 6th - Day 9</Link>
+                <Link to="day-10" component={RouterLink} underline="hover">June 7th - Day 10</Link>
+                <Link to="day-11" component={RouterLink} underline="hover">June 8th - Day 11</Link>
+                <Link to="day-12" component={RouterLink} underline="hover">June 9th - Day 12</Link>
             </Box>
         </Grid>
         {/* <Grid item xs={12} sm={4}>
