@@ -16,6 +16,8 @@ import fern_small_white from '../../../assets/road-trip/fern_small_white.jpeg'
 import fern_dandelion from '../../../assets/road-trip/fern_dandelion.jpeg'
 import fern_orange from '../../../assets/road-trip/fern_orange.jpeg'
 import fern_purple from '../../../assets/road-trip/fern_purple.jpeg'
+import l_trail_ridge_road from '../../../assets/road-trip/l_trail_ridge_road.jpeg'
+import northern_colorado from '../../../assets/road-trip/northern_colorado.jpeg'
 
 import { EntryType } from '../entryType'
 
@@ -90,7 +92,7 @@ const rmnp: Array<EntryType> = [
             },
             {
                 type: 'p',
-                text: ' We started up to Lake Haiyaha on a very snowy trail. There were some quite sketchy sections with a very narrow trail above really steep snow. It started to rain just after we started, snd about 20 minutes in it turned to hail so we paused under some trees for cover. The hail got up to boba size.'
+                text: ' We started up to Lake Haiyaha on a very snowy trail. There were some sketchy sections with a narrow trail above steep snow. It started to rain just after we started, and about 20 minutes in it turned to hail so we paused under some trees for cover. The hail got up to boba size.'
             },
             {
                 type: 'img',
@@ -101,7 +103,7 @@ const rmnp: Array<EntryType> = [
             },
             {
                 type: 'p',
-                text: 'It did clear up pretty well after so we decided to finish the hike up to the lake. Understandably, we saw a lot less folks up there. The weather held out for us to make it all the way down.'
+                text: 'It did clear up pretty well after the storm, so we decided to finish the hike up to the lake. Understandably, we saw a lot fewer folks up there. The weather held out for us to make it all the way down.'
             },
             {
                 type: 'img',
@@ -119,13 +121,13 @@ const rmnp: Array<EntryType> = [
         content: [
             {
                 type: 'p',
-                text: 'Today we hiked Deer Mountain, which we closer to where we were staying and in a region of the park we knew had no snow. Nice to get a break and dry our feet! It was a beautiful sunny morning and all along the trail we had amazing views across the valley to the mountains.'
+                text: 'Today we hiked Deer Mountain, which was closer to where we were staying and in a region of the park we knew had no snow. Nice to get a break and dry our feet! It was a beautiful sunny morning and all along the trail we had amazing views across the valley to the mountains.'
             },
             {
                 type: 'img',
                 alt: 'Julia looking out over a range of snow capped mountains.',
                 source: deer_mountain,
-                caption: 'Enjoying the view.',
+                caption: 'Enjoying the view',
             },
         ]
     },
@@ -137,7 +139,7 @@ const rmnp: Array<EntryType> = [
         content: [
             {
                 type: 'p',
-                text: 'We returned to the snowy side of the park today where we hiked up to The Loch along Glacier Gorge Trail. It was dry up until The Loch, but turned to pretty messy wet snow when we started hiking around.'
+                text: 'We returned to the snowy side of the park today where we hiked up to The Loch along Glacier Gorge Trail. It was dry up until The Loch, but turned to pretty messy wet snow when we started hiking around. The Loch was beautiful, probably my favorite lake we hiked to.'
             },
             {
                 type: 'img',
@@ -147,7 +149,7 @@ const rmnp: Array<EntryType> = [
             },
             {
                 type: 'p',
-                text: 'We continued a ways up the trail and turned off on a unmaintained (and certainly unhiked in the past few days) trail. After a little bit of trail finding and only postholing once into a stream, we made it the long feeling tenth of a mile to Embryo Lake, which we had all to ourselves. We had lunch and again made it back to the car before the rain.'
+                text: 'We continued a ways up the trail and turned off on an unmaintained (and certainly unhiked in the past few days) trail. After a little bit of trail finding and only postholing once into a stream, we made it the long-feeling tenth of a mile to Embryo Lake, which we had all to ourselves. We had lunch and again made it back to the car before the rain.'
             },
             {
                 type: 'img',
@@ -165,7 +167,7 @@ const rmnp: Array<EntryType> = [
         content: [
             {
                 type: 'p',
-                text: 'With both of us nursing some aches and pains from walking through snow, we decided to do a bit of a rest day today. We walked the relatively flat park of Fern Lake Trail up to The Pool which was beautiful, especially in the early morning before it got hot. We saw tons of wildflowers along the trail (the area had been burned a few years ago).'
+                text: 'With both of us nursing some aches and pains from walking through snow, we decided to do a bit of a rest day today. We walked the relatively flat part of Fern Lake Trail up to The Pool which was beautiful, especially in the early morning before it got hot. We saw tons of wildflowers along the trail (the area had been burned a few years ago).'
             },
             {
                 type: 'img',
@@ -218,6 +220,34 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'p',
                 text: 'After relaxing at camp for a while, we popped over to Rock Cut Brewery in Estes Park for some beers when it started to look like rain.'
+            },
+        ]
+    },
+    {
+        date: 'June 10th',
+        day: 13,
+        location: 'Rocky Mountain National Park - Riverton, WY',
+        drivingMiles: 344.5,
+        content: [
+            {
+                type: 'p',
+                text: 'We left the park today to start making our way toward Yellowstone, but took the route over Trail Ridge Road and on smaller highways rather than the interstate. It was great to drive through the park again, as the first time we drove that road it was pretty clouded in.'
+            },
+            {
+                type: 'img',
+                alt: 'Lewis driving on Trail Ridge Road with mountains in the background.',
+                source: l_trail_ridge_road,
+                caption: 'Trail Ridge Road',
+            },
+            {
+                type: 'p',
+                text: 'The rest of the driving was also really cool, with a rapidly changing landscape, rainstorms passing through, and lightning bolts in the distance. All in all, we crossed the continental divide four times!'
+            },
+            {
+                type: 'img',
+                alt: 'A photo taken out the windshield of a winding road through grassy hills.',
+                source: northern_colorado,
+                caption: 'Driving through northern Colorado',
             },
         ]
     },
