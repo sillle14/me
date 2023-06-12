@@ -18,6 +18,8 @@ import fern_orange from '../../../assets/road-trip/fern_orange.jpeg'
 import fern_purple from '../../../assets/road-trip/fern_purple.jpeg'
 import l_trail_ridge_road from '../../../assets/road-trip/l_trail_ridge_road.jpeg'
 import northern_colorado from '../../../assets/road-trip/northern_colorado.jpeg'
+import wind_river_canyon from '../../../assets/road-trip/wind_river_canyon.jpeg'
+import rodeo from '../../../assets/road-trip/rodeo.jpeg'
 
 import { EntryType } from '../entryType'
 
@@ -248,6 +250,30 @@ const rmnp: Array<EntryType> = [
                 alt: 'A photo taken out the windshield of a winding road through grassy hills.',
                 source: northern_colorado,
                 caption: 'Driving through northern Colorado',
+            },
+        ]
+    },
+    {
+        date: 'June 11th',
+        day: 14,
+        location: 'Riverton, WY - Cody, WY',
+        drivingMiles: 144.0,
+        content: [
+            {
+                type: 'p',
+                text: 'More nice driving today, with some beautiful scenery and relatively quiet roads. We just had a short journey today up to Cody to be ready to enter Yellowstone tomorrow morning. In Cody, we went for dinner at Pat O\'Hara Brewing, Wyoming\'s first all-women owned and operated brewery. They had a fantastic porter! We also went to the Cody Rodeo, which runs every night June through August.'
+            },
+            {
+                type: 'img',
+                alt: 'A photo through the windshield of a winding road through a canyon.',
+                source: wind_river_canyon,
+                caption: 'Driving through the Wind River Canyon',
+            },
+            {
+                type: 'img',
+                alt: 'A cowboy on a white bull, almost falling off.',
+                source: rodeo,
+                caption: 'Bull riding!',
             },
         ]
     },
