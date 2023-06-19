@@ -36,10 +36,19 @@ const Main = () => <>
                 <Link to="day-14" component={RouterLink} underline="hover">June 11th - Day 14</Link>
             </Box>
         </Grid>
-        {/* <Grid item xs={12} sm={4}>
-            <Typography variant="h5">Yellowstone and the Tetons</Typography>
-        </Grid>
         <Grid item xs={12} sm={4}>
+            <Typography variant="h5">Yellowstone and the Tetons</Typography>
+            <Box display="flex" flexDirection="column">
+                <Link to="day-15" component={RouterLink} underline="hover">June 12th - Day 15</Link>
+                <Link to="day-16" component={RouterLink} underline="hover">June 13th - Day 16</Link>
+                <Link to="day-17" component={RouterLink} underline="hover">June 14th - Day 17</Link>
+                <Link to="day-18" component={RouterLink} underline="hover">June 15th - Day 18</Link>
+                <Link to="day-19" component={RouterLink} underline="hover">June 16th - Day 19</Link>
+                <Link to="day-20" component={RouterLink} underline="hover">June 17th - Day 20</Link>
+                <Link to="day-21" component={RouterLink} underline="hover">June 18th - Day 21</Link>
+            </Box>
+        </Grid>
+        {/* <Grid item xs={12} sm={4}>
             <Typography variant="h5">Rainier and Olympic</Typography>
         </Grid>
         <Grid item xs={12} sm={4}>
