@@ -48,10 +48,16 @@ const Main = () => <>
                 <Link to="day-21" component={RouterLink} underline="hover">June 18th - Day 21</Link>
             </Box>
         </Grid>
-        {/* <Grid item xs={12} sm={4}>
-            <Typography variant="h5">Rainier and Olympic</Typography>
-        </Grid>
         <Grid item xs={12} sm={4}>
+            <Typography variant="h5">Rainier and Olympic</Typography>
+            <Box display="flex" flexDirection="column">
+            <Link to="day-22" component={RouterLink} underline="hover">June 19th - Day 22</Link>
+            <Link to="day-23" component={RouterLink} underline="hover">June 20th - Day 23</Link>
+            <Link to="day-24" component={RouterLink} underline="hover">June 21th - Day 24</Link>
+            <Link to="day-25" component={RouterLink} underline="hover">June 22th - Day 25</Link>
+            </Box>
+        </Grid>
+        {/* <Grid item xs={12} sm={4}>
             <Typography variant="h5">Glacier</Typography>
         </Grid>
         <Grid item xs={12} sm={4}>
