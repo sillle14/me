@@ -51,16 +51,22 @@ const Main = () => <>
         <Grid item xs={12} sm={4}>
             <Typography variant="h5">Rainier and Olympic</Typography>
             <Box display="flex" flexDirection="column">
-            <Link to="day-22" component={RouterLink} underline="hover">June 19th - Day 22</Link>
-            <Link to="day-23" component={RouterLink} underline="hover">June 20th - Day 23</Link>
-            <Link to="day-24" component={RouterLink} underline="hover">June 21th - Day 24</Link>
-            <Link to="day-25" component={RouterLink} underline="hover">June 22th - Day 25</Link>
+                <Link to="day-22" component={RouterLink} underline="hover">June 19th - Day 22</Link>
+                <Link to="day-23" component={RouterLink} underline="hover">June 20th - Day 23</Link>
+                <Link to="day-24" component={RouterLink} underline="hover">June 21th - Day 24</Link>
+                <Link to="day-25" component={RouterLink} underline="hover">June 22th - Day 25</Link>
+                <Link to="day-26" component={RouterLink} underline="hover">June 23th - Day 26</Link>
+                <Link to="day-27" component={RouterLink} underline="hover">June 24th - Day 27</Link>
+                <Link to="day-28" component={RouterLink} underline="hover">June 25th - Day 28</Link>
+            </Box>
+        </Grid>
+        <Grid item xs={12} sm={4}>
+            <Typography variant="h5">Glacier</Typography>
+            <Box display="flex" flexDirection="column">
+                <Link to="day-29" component={RouterLink} underline="hover">June 26th - Day 29</Link>
             </Box>
         </Grid>
         {/* <Grid item xs={12} sm={4}>
-            <Typography variant="h5">Glacier</Typography>
-        </Grid>
-        <Grid item xs={12} sm={4}>
             <Typography variant="h5">Heading Back East</Typography>
         </Grid> */}
     </Grid>
