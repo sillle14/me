@@ -51,7 +51,7 @@ const glacier: Array<EntryType> = [
         content: [
             {
                 type: 'p',
-                text: 'We arrived at Many Glacier Campground just in time to see a grizzly bear walk through our site, right where the tent would go! We had literally just gotten out of the car and neither of us had our phones on us so no pictures, unfortunately. We decided to go on a short hike before setting up and hiked a ways up the Grinnell Glacier trail, which was closed due to unsafe snow bridges before actually reaching the glacier. It was a good thing we didn\'t set up as when we arrived back at the campground, it had been closed to all campers except hard sided RVs. Luckily, we were able to find another site at another campground about 25 minutes away in Babb, MT.'
+                text: 'We arrived at Many Glacier Campground just in time to see a grizzly bear walk through our site, right where the tent would go! We had literally just gotten out of the car and neither of us had our phones on us so no pictures, unfortunately. We decided to go on a short hike before setting up and hiked a ways up the Grinnell Glacier trail, which was closed a few miles in due to unsafe snow bridges. It was a good thing we didn\'t set up as when we arrived back at the campground, it had been closed to all campers except hard sided RVs due to the bear. Luckily, we were able to find a site at another campground about 25 minutes away in Babb, MT.'
                 
             },
             {
@@ -77,7 +77,7 @@ const glacier: Array<EntryType> = [
         content: [
             {
                 type: 'p',
-                text: 'We hiked up to Iceberg Lake today, a beautiful route mostly in a hillside meadow. The views and wildflowers were spectacular. It was a mostly cloudy day which was nice to stay cool on the mostly exposed trail through the meadows, but it meant it was actually quite chilly at the top so neither of us were brave enough to swim in the lake (which, as expected, had icebergs floating in it and even just putting our feet in was verrrrry cold).'
+                text: 'We hiked up to Iceberg Lake today, a beautiful route mostly in a hillside meadow. The views and wildflowers were spectacular. It was a cloudy day which was nice to stay cool on the mostly exposed trail through the meadows, but it meant it was actually quite chilly at the top so neither of us were brave enough to swim in the lake (which, as expected, had icebergs floating in it and even just putting our feet in was verrrrry cold).'
                 
             },
             {
@@ -106,7 +106,7 @@ const glacier: Array<EntryType> = [
         content: [
             {
                 type: 'p',
-                text: 'We started up the Siyeh Pass trail and then headed off on a social trail to climb Mount Siyeh. The class 3 scrambling ended up being a bit more technical than we were expecting, so we turned back and headed up to the pass instead. There were breathtaking views in both directions at the pass.'
+                text: 'We started up the Siyeh Pass trail and then headed off on a social trail to climb Mount Siyeh. The class 3 scrambling ended up being even more difficult than we were expecting, so we turned back and headed up to the pass instead. There were breathtaking views in both directions at the pass.'
                 
             },
             {
@@ -117,7 +117,7 @@ const glacier: Array<EntryType> = [
             },
             {
                 type: 'p',
-                text: 'From the trail up to the pass, we saw a beautiful turquoise lake just a bit off the trail so we stopped by there on the way down.'
+                text: 'From the trail up to the pass, we saw a beautiful turquoise lake just a bit off the trail so we stopped by on the way down.'
             },
             {
                 type: 'img',
@@ -197,7 +197,7 @@ const glacier: Array<EntryType> = [
             },
             {
                 type: 'p',
-                text: 'After reaching the chalet, we added another spur trail up to Swiftcurrent Pass before hiking all the way down to Going to the Sun road, where we took a shuttle back up to our car at Logan Pass.'
+                text: 'After reaching the chalet, we added another spur trail up to Swiftcurrent Pass before hiking all the way down to Going to the Sun Road, where we took a shuttle back up to our car at Logan Pass.'
             },
         ],
     },
@@ -217,7 +217,7 @@ const glacier: Array<EntryType> = [
                 alt: 'Julia holding a beer.',
                 source: mighty_mos,
                 vert: true,
-                caption: 'Might Mo Brew Pub'
+                caption: 'Mighty Mo Brew Pub'
             },
         ],
     }

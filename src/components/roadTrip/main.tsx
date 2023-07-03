@@ -61,7 +61,7 @@ const Main = () => <>
             </Box>
         </Grid>
         <Grid item xs={12} sm={4}>
-            <Typography variant="h5">Glacier</Typography>
+            <Typography variant="h5">Glacier National Park</Typography>
             <Box display="flex" flexDirection="column">
                 <Link to="day-29" component={RouterLink} underline="hover">June 26th - Day 29</Link>
                 <Link to="day-30" component={RouterLink} underline="hover">June 27th - Day 30</Link>
