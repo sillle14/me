@@ -100,7 +100,7 @@ const rainier_olympic: Array<EntryType> = [
         ],
     },
     {
-        date: 'June 21th',
+        date: 'June 21st',
         day: 24,
         location: 'Mount Rainier National Park - Olympic National Park',
         drivingMiles: 234.1,
@@ -130,7 +130,7 @@ const rainier_olympic: Array<EntryType> = [
         ],
     },
     {
-        date: 'June 22th',
+        date: 'June 22nd',
         day: 25,
         location: 'Olympic National Park',
         hikingMiles: 4.8,
@@ -172,7 +172,7 @@ const rainier_olympic: Array<EntryType> = [
         ],
     },
     {
-        date: 'June 23th',
+        date: 'June 23rd',
         day: 26,
         location: 'Olympic National Park - Seattle, WA',
         hikingMiles: 6.6,

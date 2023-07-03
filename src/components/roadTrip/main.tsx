@@ -17,7 +17,7 @@ const Main = () => <>
             <Box display="flex" flexDirection="column">                
                 <Link to="day-1" component={RouterLink} underline="hover">May 29th - Day 1</Link>
                 <Link to="day-2" component={RouterLink} underline="hover">May 30th - Day 2</Link>
-                <Link to="day-3" component={RouterLink} underline="hover">May 31th - Day 3</Link>
+                <Link to="day-3" component={RouterLink} underline="hover">May 31st - Day 3</Link>
                 <Link to="day-4" component={RouterLink} underline="hover">June 1st - Day 4</Link>
                 <Link to="day-5" component={RouterLink} underline="hover">June 2nd - Day 5</Link>
                 <Link to="day-6" component={RouterLink} underline="hover">June 3rd - Day 6</Link>
@@ -53,9 +53,9 @@ const Main = () => <>
             <Box display="flex" flexDirection="column">
                 <Link to="day-22" component={RouterLink} underline="hover">June 19th - Day 22</Link>
                 <Link to="day-23" component={RouterLink} underline="hover">June 20th - Day 23</Link>
-                <Link to="day-24" component={RouterLink} underline="hover">June 21th - Day 24</Link>
-                <Link to="day-25" component={RouterLink} underline="hover">June 22th - Day 25</Link>
-                <Link to="day-26" component={RouterLink} underline="hover">June 23th - Day 26</Link>
+                <Link to="day-24" component={RouterLink} underline="hover">June 21st - Day 24</Link>
+                <Link to="day-25" component={RouterLink} underline="hover">June 22nd - Day 25</Link>
+                <Link to="day-26" component={RouterLink} underline="hover">June 23rd - Day 26</Link>
                 <Link to="day-27" component={RouterLink} underline="hover">June 24th - Day 27</Link>
                 <Link to="day-28" component={RouterLink} underline="hover">June 25th - Day 28</Link>
             </Box>
@@ -64,6 +64,12 @@ const Main = () => <>
             <Typography variant="h5">Glacier</Typography>
             <Box display="flex" flexDirection="column">
                 <Link to="day-29" component={RouterLink} underline="hover">June 26th - Day 29</Link>
+                <Link to="day-30" component={RouterLink} underline="hover">June 27th - Day 30</Link>
+                <Link to="day-31" component={RouterLink} underline="hover">June 28th - Day 31</Link>
+                <Link to="day-32" component={RouterLink} underline="hover">June 29th - Day 32</Link>
+                <Link to="day-33" component={RouterLink} underline="hover">June 30th - Day 33</Link>
+                <Link to="day-34" component={RouterLink} underline="hover">July 1st - Day 34</Link>
+                <Link to="day-34" component={RouterLink} underline="hover">July 2nd - Day 35</Link>
             </Box>
         </Grid>
         {/* <Grid item xs={12} sm={4}>
