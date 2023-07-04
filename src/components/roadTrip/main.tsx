@@ -1,6 +1,5 @@
 import { Grid, Typography, styled, Link, Box } from "@mui/material";
 import { Link as RouterLink } from 'react-router-dom'
-import start from '../../assets/road-trip/start.jpeg'
 
 const StyledImage = styled('img')(({theme}) => ({
     width: '100%',
