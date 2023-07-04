@@ -19,7 +19,7 @@ const yellow_tetons: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A selfie of Lewis and Julia in front of a deep canyon with rushing water.',
-                source: 'grand_canyon',
+                source: 'grand_canyon_yellowstone',
                 caption: 'The Grand Canyon of the Yellowstone',
             },
         ]

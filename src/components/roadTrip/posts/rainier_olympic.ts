@@ -31,7 +31,7 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A view across of Mount Rainier, a glacier covered peak, mostly obscured by clouds.',
-                source: 'mount_rainer',
+                source: 'mount_rainier',
                 caption: 'The big one! (or at least some of it)',
             },
             {
