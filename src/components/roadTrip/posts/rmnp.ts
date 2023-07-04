@@ -1,26 +1,3 @@
-import ute_cloud from '../../../assets/road-trip/ute_cloud.jpeg'
-import ute_wildflower from '../../../assets/road-trip/ute_wildflower.jpeg'
-import ute_j_hiking from '../../../assets/road-trip/ute_j_hiking.jpeg'
-import bear_lake from '../../../assets/road-trip/bear_lake.jpeg'
-import dream_lake from '../../../assets/road-trip/dream_lake.jpeg'
-import emerald_lake from '../../../assets/road-trip/emerald_lake.jpeg'
-import waiting_out_hail from '../../../assets/road-trip/waiting_out_hail.jpeg'
-import lake_haiyaha from '../../../assets/road-trip/haiyaha_lake.jpeg'
-import deer_mountain from '../../../assets/road-trip/deer_mountain.jpeg'
-import the_loch from '../../../assets/road-trip/the_loch.jpeg'
-import embryo_lake from '../../../assets/road-trip/embryo_lake.jpeg'
-import fern_blue from '../../../assets/road-trip/fern_blue.jpeg'
-import fern_white from '../../../assets/road-trip/fern_white.jpeg'
-import fern_daisyish from '../../../assets/road-trip/fern_daisyish.jpeg'
-import fern_small_white from '../../../assets/road-trip/fern_small_white.jpeg'
-import fern_dandelion from '../../../assets/road-trip/fern_dandelion.jpeg'
-import fern_orange from '../../../assets/road-trip/fern_orange.jpeg'
-import fern_purple from '../../../assets/road-trip/fern_purple.jpeg'
-import l_trail_ridge_road from '../../../assets/road-trip/l_trail_ridge_road.jpeg'
-import northern_colorado from '../../../assets/road-trip/northern_colorado.jpeg'
-import wind_river_canyon from '../../../assets/road-trip/wind_river_canyon.jpeg'
-import rodeo from '../../../assets/road-trip/rodeo.jpeg'
-
 import { EntryType } from '../entryType'
 
 const rmnp: Array<EntryType> = [
@@ -37,20 +14,20 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A rocky and snow covered trail with a low cloud obscuring any views.',
-                source: ute_cloud,
+                source: 'ute_cloud',
                 caption: 'Starting the Ute trail in a cloud.',
             },
             {
                 type: 'img',
                 alt: 'Bright pink wildflowers poking out of some moss next to some snow.',
-                source: ute_wildflower,
+                source: 'ute_wildflower',
                 caption: '"Wildflowers don\'t care where they grow"',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Julia walking on a trail with sparse snow. There are snow capped mountains in the background, tops in the clouds.',
-                source: ute_j_hiking,
+                source: 'ute_j_hiking',
                 caption: 'The clouds lifted and we could see some mountain views by the end.',
             },
             {
@@ -72,7 +49,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A selfie of Lewis and Julia in front of Bear Lake with snow capped Long\'s Peak in the background.',
-                source: bear_lake,
+                source: 'bear_lake',
                 caption: 'Bear Lake with Long\'s Peak in the background.',
             },
             {
@@ -82,14 +59,14 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Dream Lake with pines and snow covered mountains in the background.',
-                source: dream_lake,
+                source: 'dream_lake',
                 caption: 'Dream Lake',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Emerald Lake iced over with cliffs and snow covered mountains in the background.',
-                source: emerald_lake,
+                source: 'emerald_lake',
                 caption: 'When we were planning this months ago I thought we would be able to swim!.',
             },
             {
@@ -99,7 +76,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A photo through tree branches downhill of Julia turned toward a group of trees in a rain coat. You can see some hail on the ground.',
-                source: waiting_out_hail,
+                source: 'waiting_out_hail',
                 caption: 'Huddling under trees attempting to avoid hail. It kinda hurt!',
                 vert: true
             },
@@ -110,7 +87,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Julia sitting on a rock with her arms raised in a triumphant position above Lake Haiyaha.',
-                source: lake_haiyaha,
+                source: 'lake_haiyaha',
                 caption: 'We made it!',
             },
         ]
@@ -128,7 +105,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Julia looking out over a range of snow capped mountains.',
-                source: deer_mountain,
+                source: 'deer_mountain',
                 caption: 'Enjoying the view',
             },
         ]
@@ -146,7 +123,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Lewis and Julia in front of a mountain lake with snowy mountains in the background.',
-                source: the_loch,
+                source: 'the_loch',
                 caption: 'The Loch.',
             },
             {
@@ -156,7 +133,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A small lake between boulders and a snowfield.',
-                source: embryo_lake,
+                source: 'embryo_lake',
                 caption: 'Aptly named Embryo Lake.',
             },
         ]
@@ -174,48 +151,48 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Small blue wildflowers on gravel.',
-                source: fern_blue,
+                source: 'fern_blue',
                 caption: '',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Closeup of a white wildflower with yellow center.',
-                source: fern_white,
+                source: 'fern_white',
                 caption: '',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Small white wildflowers with yellow centers between the trail and a rock.',
-                source: fern_daisyish,
+                source: 'fern_daisyish',
                 caption: '',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Close up of very small white wildflowers, some still just buds.',
-                source: fern_small_white,
+                source: 'fern_small_white',
                 caption: '',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Close up of two yellow dandelions.',
-                source: fern_dandelion,
+                source: 'fern_dandelion',
                 caption: '',
             },
             {
                 type: 'img',
                 alt: 'Close up of many orange wildflowers on one stalk.',
-                source: fern_orange,
+                source: 'fern_orange',
                 caption: '',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Close up of purple wildflowers with yellow centers, with a river in the background.',
-                source: fern_purple,
+                source: 'fern_purple',
                 caption: '',
                 vert: true
             },
@@ -238,7 +215,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Lewis driving on Trail Ridge Road with mountains in the background.',
-                source: l_trail_ridge_road,
+                source: 'l_trail_ridge_road',
                 caption: 'Trail Ridge Road',
             },
             {
@@ -248,7 +225,7 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A photo taken out the windshield of a winding road through grassy hills.',
-                source: northern_colorado,
+                source: 'northern_colorado',
                 caption: 'Driving through northern Colorado',
             },
         ]
@@ -266,13 +243,13 @@ const rmnp: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A photo through the windshield of a winding road through a canyon.',
-                source: wind_river_canyon,
+                source: 'wind_river_canyon',
                 caption: 'Driving through the Wind River Canyon',
             },
             {
                 type: 'img',
                 alt: 'A cowboy on a white bull, almost falling off.',
-                source: rodeo,
+                source: 'rodeo',
                 caption: 'Bull riding!',
             },
         ]

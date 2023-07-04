@@ -27,7 +27,8 @@ const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, ne
         if (content.type === 'p') {
             return <Typography key={i}>{content.text}</Typography>
         } else {
-            const image = content.vert ? <VertImage alt={content.alt} src={content.source}/> : <StyledImage alt={content.alt} src={content.source}/>
+            const source = `https://storage.googleapis.com/road-trip/road-trip/${content.source}.jpeg`
+            const image = content.vert ? <VertImage alt={content.alt} src={source}/> : <StyledImage alt={content.alt} src={source}/>
             return <Box key={i} display="flex" flexDirection="column" alignItems="center">
                 {image}
                 <Box sx={{textAlign: 'center', typography: 'caption'}}>{content.caption}</Box>

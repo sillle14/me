@@ -1,25 +1,3 @@
-import rampart_ridge_trail from '../../../assets/road-trip/rampart_ridge_trail.jpeg'
-import rampart_ridge_view from '../../../assets/road-trip/rampart_ridge_view.jpeg'
-import mount_rainer from '../../../assets/road-trip/mount_rainier.jpeg'
-import christine_falls from '../../../assets/road-trip/christine_fails.jpeg'
-import carter_falls from '../../../assets/road-trip/carter_falls.jpeg'
-import theory from '../../../assets/road-trip/theory.jpeg'
-import rainier_snow from '../../../assets/road-trip/rainier_snow.jpeg'
-import kalaloch_beach from '../../../assets/road-trip/kalaloch_beach.jpeg'
-import otw_beach from '../../../assets/road-trip/otw_beach.jpeg'
-import ruby_beach from '../../../assets/road-trip/ruby_beach.jpeg'
-import mount_storm_king from '../../../assets/road-trip/mount_storm_king.jpeg'
-import j_storm_king from '../../../assets/road-trip/j_storm_king.jpeg'
-import marymere_falls from '../../../assets/road-trip/marymere_falls.jpeg'
-import lake_crescent from '../../../assets/road-trip/lake_crescent.jpeg'
-import hall_of_mosses from '../../../assets/road-trip/hall_of_mosses.jpeg'
-import mineral_creek_falls from '../../../assets/road-trip/mineral_creek_falls.jpeg'
-import chris from '../../../assets/road-trip/chris.jpeg'
-import ballard_locks from '../../../assets/road-trip/ballard_locks.jpeg'
-import pride_parade from '../../../assets/road-trip/pride_parade.jpeg'
-import space_needle from '../../../assets/road-trip/space_needle.jpeg'
-import green_lake from '../../../assets/road-trip/green_lake.jpeg'
-
 import { EntryType } from '../entryType'
 
 const rainier_olympic: Array<EntryType> = [
@@ -36,14 +14,14 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Julia walking up a trail through tall pine trees.',
-                source: rampart_ridge_trail,
+                source: 'rampart_ridge_trail',
                 caption: 'Beautiful forest, and totally different than everything we\'d seen so far',
                 vert: true,
             },
             {
                 type: 'img',
                 alt: 'A view across a valley of forested mountains with clouds rolling off the peaks.',
-                source: rampart_ridge_view,
+                source: 'rampart_ridge_view',
                 caption: 'View from Rampart Ridge',
             },
             {
@@ -53,13 +31,13 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A view across of Mount Rainier, a glacier covered peak, mostly obscured by clouds.',
-                source: mount_rainer,
+                source: 'mount_rainer',
                 caption: 'The big one! (or at least some of it)',
             },
             {
                 type: 'img',
                 alt: 'A selfie of Lewis and Julia in front of a waterfall under a bridge.',
-                source: christine_falls,
+                source: 'christine_falls',
                 caption: 'Christine Falls',
             },
         ]
@@ -77,7 +55,7 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A waterfall through some trees.',
-                source: carter_falls,
+                source: 'carter_falls',
                 caption: 'Carter Falls',
                 vert: true,
             },
@@ -88,13 +66,13 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Julia walking up a snowy ridge with very low visibility.',
-                source: rainier_snow,
+                source: 'rainier_snow',
                 caption: 'Hiking near Alta Vista Point',
             },
             {
                 type: 'img',
                 alt: 'Total white out beyond a few trees.',
-                source: theory,
+                source: 'theory',
                 caption: 'View of Mount Rainier (allegedly)',
             },
         ],
@@ -112,19 +90,19 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'The ocean with an evergreen tree in the foreground.',
-                source: kalaloch_beach,
+                source: 'kalaloch_beach',
                 caption: 'Kalaloch Beach',
             },
             {
                 type: 'img',
                 alt: 'Julia walking down a trail surrounded by ferns, brush, and mossy trees.',
-                source: otw_beach,
+                source: 'otw_beach',
                 caption: 'Trail to the beach',
             },
             {
                 type: 'img',
                 alt: 'An overlook down on a beach with stone formations in the water.',
-                source: ruby_beach,
+                source: 'ruby_beach',
                 caption: 'Ruby Beach',
             },
         ],
@@ -142,19 +120,19 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Julia scrambling up a rocky ridge.',
-                source: j_storm_king,
+                source: 'j_storm_king',
                 caption: 'Almost at the top!',
             },
             {
                 type: 'img',
                 alt: 'Lewis and Julia on the top of a mountain with an enormous view of Lake Crescent below.',
-                source: mount_storm_king,
+                source: 'mount_storm_king',
                 caption: 'View from Mount Storm King',
             },
             {
                 type: 'img',
                 alt: 'A thin waterfall (wider at the bottom) over mossy rocks.',
-                source: marymere_falls,
+                source: 'marymere_falls',
                 caption: 'Marymere Falls',
                 vert: true
             },
@@ -165,7 +143,7 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A clear lake with tree covered hills in the background.',
-                source: lake_crescent,
+                source: 'lake_crescent',
                 caption: 'Lake Crescent',
                 vert: true
             },
@@ -185,13 +163,13 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A huge maple tree covered with hanging moss.',
-                source: hall_of_mosses,
+                source: 'hall_of_mosses',
                 caption: 'Hall of Mosses',
             },
             {
                 type: 'img',
                 alt: 'A waterfall over mossy rocks through maple leaves.',
-                source: mineral_creek_falls,
+                source: 'mineral_creek_falls',
                 caption: 'Mineral Creek Falls',
             },
             {
@@ -213,7 +191,7 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A view of foamy ocean water taken from the locks. There is a railroad bridge in the background.',
-                source: ballard_locks,
+                source: 'ballard_locks',
                 caption: 'Ballard Locks'
             },
             {
@@ -223,7 +201,7 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A selfie of Lewis, Julia, and Chris.',
-                source: chris,
+                source: 'chris',
                 caption: ''
             },
         ],
@@ -241,13 +219,13 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A marching band at the pride parade.',
-                source: pride_parade,
+                source: 'pride_parade',
                 caption: 'Pride Parade!'
             },
             {
                 type: 'img',
                 alt: 'The space needle against a blue sky.',
-                source: space_needle,
+                source: 'space_needle',
                 vert: true,
                 caption: 'The Space Needle'
             },
@@ -258,7 +236,7 @@ const rainier_olympic: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A blue lake through some greenery.',
-                source: green_lake,
+                source: 'green_lake',
                 vert: true,
                 caption: 'Green Lake'
             },

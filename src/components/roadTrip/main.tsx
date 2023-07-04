@@ -8,7 +8,7 @@ const StyledImage = styled('img')(({theme}) => ({
 }))
 
 const Main = () => <>
-    <StyledImage src={start} alt="Lewis and Julia in the car about to start the trip." />
+    <StyledImage src={'https://storage.googleapis.com/road-trip/road-trip/${content.source}.jpeg'} alt="Lewis and Julia in the car about to start the trip." />
     <Typography sx={{mb: 1}}>We're driving across the country! Follow along on our adventures.</Typography>
     <hr></hr>
     <Grid container rowSpacing={1}>

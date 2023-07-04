@@ -1,19 +1,3 @@
-import trout_aquarium from '../../../assets/road-trip/trout_aquarium.jpeg'
-import huckleberry_shake from '../../../assets/road-trip/huckleberry_shake.jpeg'
-import grinnell_glacier_hike from '../../../assets/road-trip/grinell_glacier_hike.jpeg'
-import bear_locale from '../../../assets/road-trip/bear_locale.jpeg'
-import bear_grass from '../../../assets/road-trip/bear_grass.jpeg'
-import iceberg_lake from '../../../assets/road-trip/iceberg_lake.jpeg'
-import siyeh_pass from '../../../assets/road-trip/siyeh_pass.jpeg'
-import unknown_lake from '../../../assets/road-trip/unknown_lake.jpeg'
-import wild_goose_island from '../../../assets/road-trip/wild_goose_island.jpeg'
-import east_logan_pass from '../../../assets/road-trip/east_logan_pass.jpeg'
-import avalanche_lake from '../../../assets/road-trip/avalanche_lake.jpeg'
-import mountain_goat from '../../../assets/road-trip/mountain_goat.jpeg'
-import grinnell_glacier_overlook from '../../../assets/road-trip/grinnell_glacier_overlook.jpeg'
-import highline_trail from '../../../assets/road-trip/highline_trail.jpeg'
-import mighty_mos from '../../../assets/road-trip/mighty_mos.jpeg'
-
 import { EntryType } from '../entryType';
 
 const glacier: Array<EntryType> = [
@@ -31,14 +15,14 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'An aquarium with trout in front of a large poster of a mountain lake.',
-                source: trout_aquarium,
+                source: 'trout_aquarium',
                 vert: true,
                 caption: 'Trout Aquarium'
             },
             {
                 type: 'img',
                 alt: 'A selfie of Lewis and Julia drinking a purple shake with two straws.',
-                source: huckleberry_shake,
+                source: 'huckleberry_shake',
                 caption: 'Huckleberry Shake!'
             },
         ],
@@ -57,14 +41,14 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A campsite with an arrow pointed at the tent spot.',
-                source: bear_locale,
+                source: 'bear_locale',
                 vert: true,
                 caption: 'Where the bear was (too close for comfort for sure!)'
             },
             {
                 type: 'img',
                 alt: 'Julia hiking through a meadow with tall mountains in the background.',
-                source: grinnell_glacier_hike,
+                source: 'grinnell_glacier_hike',
                 caption: 'Grinnell Glacier Hike'
             },
         ],
@@ -83,13 +67,13 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A white multi blossomed flower in a cone-like shape in focus in the foreground with mountains out of focus in the background.',
-                source: bear_grass,
+                source: 'bear_grass',
                 caption: 'Bear grass and views from the trail'
             },
             {
                 type: 'img',
                 alt: 'A calm mountain lake among cliffs with icebergs in it. The lake is very reflective so mirrors the mountains above.',
-                source: iceberg_lake,
+                source: 'iceberg_lake',
                 caption: 'Iceberg Lake'
             },
             {
@@ -112,7 +96,7 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Julia hiking up a trail on a scree slope with mountains in the background.',
-                source: siyeh_pass,
+                source: 'siyeh_pass',
                 caption: 'Hiking up to the pass'
             },
             {
@@ -122,7 +106,7 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A mountain lake with tall rocky mountains in the background.',
-                source: unknown_lake,
+                source: 'unknown_lake',
                 caption: 'Lake below the pass'
             },
         ],
@@ -141,13 +125,13 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A blue lake with a tiny green island in front of huge mountains.',
-                source: wild_goose_island,
+                source: 'wild_goose_island',
                 caption: 'This tiny island has a name: Wild Goose Island'
             },
             {
                 type: 'img',
                 alt: 'A ridge line of rocky mountains in front of a green valley.',
-                source: east_logan_pass,
+                source: 'east_logan_pass',
                 caption: 'Views just east of Logan Pass'
             },
             {
@@ -157,7 +141,7 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A selfie of Lewis and Julia in bathing suits in front of the lake.',
-                source: avalanche_lake,
+                source: 'avalanche_lake',
                 caption: 'Avalanche Lake'
             },
         ],
@@ -176,13 +160,13 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A white mountain goat sitting on a cliff side.',
-                source: mountain_goat,
+                source: 'mountain_goat',
                 caption: 'A mountain goat hanging out right by the trail'
             },
             {
                 type: 'img',
                 alt: 'Julia in the shade hiking on a trail. In the background, mountains across the valley are in the sun.',
-                source: highline_trail,
+                source: 'highline_trail',
                 caption: 'The sun didn\'t reach us for quite a while on the west facing slope'
             },
             {
@@ -192,7 +176,7 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A glacier and glacial lake with mountains in the background seen from a high pass.',
-                source: grinnell_glacier_overlook,
+                source: 'grinnell_glacier_overlook',
                 caption: 'Grinnell Glacier Overlook'
             },
             {
@@ -215,7 +199,7 @@ const glacier: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Julia holding a beer.',
-                source: mighty_mos,
+                source: 'mighty_mos',
                 vert: true,
                 caption: 'Mighty Mo Brew Pub'
             },

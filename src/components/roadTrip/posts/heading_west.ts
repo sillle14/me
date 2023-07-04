@@ -1,20 +1,3 @@
-import nay_aug_falls from '../../../assets/road-trip/nay_aug_falls.jpeg'
-import julia_paper_tower from '../../../assets/road-trip/julia_paper_tower.jpeg'
-import rebert from '../../../assets/road-trip/rebert.jpeg'
-import dianthus_barbatus from '../../../assets/road-trip/dianthus_barbatus.jpeg'
-import rock_garden from '../../../assets/road-trip/rock_garden.jpeg'
-import st_louis_arch from '../../../assets/road-trip/st_louis_arch.jpeg'
-import pitchfork from '../../../assets/road-trip/pitchfork.jpeg'
-import st_louis_sculpture from '../../../assets/road-trip/st_louis_sculpture.jpeg'
-import fulton_lunch from '../../../assets/road-trip/fulton_lunch.jpeg'
-import buckeye_butterfly from '../../../assets/road-trip/buckeye_butterfly.jpg'
-import kc_skyline from '../../../assets/road-trip/kc_skyline.jpeg'
-import ks_driving from '../../../assets/road-trip/ks_driving.jpeg'
-import denver_duck from '../../../assets/road-trip/denver_duck.jpeg'
-import ira_denver from '../../../assets/road-trip/ira_denver.jpeg'
-import hanna from '../../../assets/road-trip/hanna.jpeg'
-import rainy_drive from '../../../assets/road-trip/rainy_drive.jpeg'
-
 import { EntryType } from '../entryType'
 
 const heading_west: Array<EntryType> = [
@@ -31,13 +14,13 @@ const heading_west: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A waterfall in Nay Aug Park.',
-                source: nay_aug_falls,
+                source: 'nay_aug_falls',
                 caption: 'Waterfall in Nay Aug Park'
             },
             {
                 type: 'img',
                 alt: 'Julia in front of the Penn paper tower from The Office credits.',
-                source: julia_paper_tower,
+                source: 'julia_paper_tower',
                 caption: 'Queue the theme from The Office...'
             },
         ]
@@ -55,33 +38,33 @@ const heading_west: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'Lewis walking on a boardwalk in Rebert Pike Nature Park.',
-                source: rebert,
+                source: 'rebert',
                 caption: 'Walking around Rebert Pike Nature Park',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'Dianthus Barbatus flowers in Rebert Pike Nature Park.',
-                source: dianthus_barbatus,
+                source: 'dianthus_barbatus',
                 caption: 'Beautiful flowers at the park',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'The Hartman Rock Garden.',
-                source: rock_garden,
+                source: 'rock_garden',
                 caption: 'Hartman Rock Garden',
             },
             {
                 type: 'img',
                 alt: 'The world\'s largest pitchfork.',
-                source: pitchfork,
+                source: 'pitchfork',
                 caption: 'The world\'s largest pitchfork',
             },
             {
                 type: 'img',
                 alt: 'The St. Louis Arch in a photo taken from a car while driving into the city.',
-                source: st_louis_arch,
+                source: 'st_louis_arch',
                 caption: 'Just across the Mississippi driving into St. Louis'
             }
         ]
@@ -99,13 +82,13 @@ const heading_west: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A sculpture in Forest Park, St. Louis.',
-                source: st_louis_sculpture,
+                source: 'st_louis_sculpture',
                 caption: 'Sculpture garden in Forest Park'
             },
             {
                 type: 'img',
                 alt: 'Julia sitting at a picnic table in Fulton, MO with cherries, bread, and hummus.',
-                source: fulton_lunch,
+                source: 'fulton_lunch',
                 caption: 'Lunch in Fulton'
             },
         ]
@@ -122,14 +105,14 @@ const heading_west: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A closeup of a buckeye butterfly on a small plant.',
-                source: buckeye_butterfly,
+                source: 'buckeye_butterfly',
                 caption: 'Buckeye butterfly in Kauffman Memorial Garden',
                 vert: true
             },
             {
                 type: 'img',
                 alt: 'The Kansas City skyline from the World War I memorial.',
-                source: kc_skyline,
+                source: 'kc_skyline',
                 caption: 'The Kansas City skyline'
             },
         ]
@@ -147,7 +130,7 @@ const heading_west: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A selfie taken by Lewis of him and Julia in the car. Julia is driving.',
-                source: ks_driving,
+                source: 'ks_driving',
                 caption: 'On the road in West Kansas',
             },
         ]
@@ -164,13 +147,13 @@ const heading_west: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A fountain in a pool in the Denver Botanic Gardens. There is a male mallard in the water flapping his wings in the foreground.',
-                source: denver_duck,
+                source: 'denver_duck',
                 caption: 'Denver Botanic Gardens',
             },
             {
                 type: 'img',
                 alt: 'A selfie of Lewis, Ira, and Julia in the Denver Botanic Gardens.',
-                source: ira_denver,
+                source: 'ira_denver',
                 caption: 'There was an adorable duckling in the pond behind us but I couldn\'t get a good picture.',
             },
         ]
@@ -188,13 +171,13 @@ const heading_west: Array<EntryType> = [
             {
                 type: 'img',
                 alt: 'A selfie of Lewis, Julia, and Hanna.',
-                source: hanna,
+                source: 'hanna',
                 caption: 'Rainy in Boulder',
             },
             {
                 type: 'img',
                 alt: 'A view out the front windshield of a car. It\'s quite rainy.',
-                source: rainy_drive,
+                source: 'rainy_drive',
                 caption: 'On the road to Estes Park',
             },
         ]
