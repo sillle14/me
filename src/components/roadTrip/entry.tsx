@@ -1,6 +1,7 @@
 import { Box, Link, styled, Typography } from "@mui/material"
 import { EntryType } from "./entryType"
 import { Link as RouterLink } from 'react-router-dom'
+import ScrollToTop from "../scrollToTop"
 
 const StyledImage = styled('img')(({theme}) => ({
     width: '100%',
@@ -53,7 +54,7 @@ const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, ne
         {drivingMiles}
         {hikingMiles}
         {content}
-        <Box sx={{textAlign: 'center'}}>{navigation}</Box>
+        <Box sx={{textAlign: 'center'}}><ScrollToTop/>{navigation}</Box>
     </>
 }
 

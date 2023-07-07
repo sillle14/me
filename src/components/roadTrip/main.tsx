@@ -68,12 +68,15 @@ const Main = () => <>
                 <Link to="day-32" component={RouterLink} underline="hover">June 29th - Day 32</Link>
                 <Link to="day-33" component={RouterLink} underline="hover">June 30th - Day 33</Link>
                 <Link to="day-34" component={RouterLink} underline="hover">July 1st - Day 34</Link>
-                <Link to="day-34" component={RouterLink} underline="hover">July 2nd - Day 35</Link>
+                <Link to="day-35" component={RouterLink} underline="hover">July 2nd - Day 35</Link>
             </Box>
         </Grid>
-        {/* <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={4}>
             <Typography variant="h5">Heading Back East</Typography>
-        </Grid> */}
+            <Box display="flex" flexDirection="column">
+                <Link to="day-36" component={RouterLink} underline="hover">July 3rd - Day 36</Link>
+            </Box>
+        </Grid>
     </Grid>
 </>
 
