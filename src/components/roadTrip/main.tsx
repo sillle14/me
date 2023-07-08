@@ -75,6 +75,9 @@ const Main = () => <>
             <Typography variant="h5">Heading Back East</Typography>
             <Box display="flex" flexDirection="column">
                 <Link to="day-36" component={RouterLink} underline="hover">July 3rd - Day 36</Link>
+                <Link to="day-37" component={RouterLink} underline="hover">July 4th - Day 37</Link>
+                <Link to="day-38" component={RouterLink} underline="hover">July 5th - Day 38</Link>
+                <Link to="day-39" component={RouterLink} underline="hover">July 6th - Day 39</Link>
             </Box>
         </Grid>
     </Grid>
