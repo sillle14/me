@@ -19,6 +19,9 @@ const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, ne
     const drivingMiles = entry.drivingMiles ? 
                          <Typography sx={{fontWeight: 'bold'}}>{entry.drivingMiles} miles driven</Typography> :
                          null
+    const drivingKilometers = entry.drivingKilometers ? 
+                              <Typography sx={{fontWeight: 'bold'}}>{entry.drivingKilometers} kilometers driven</Typography> :
+                              null
 
     const hikingMiles = entry.hikingMiles ? 
                         <Typography sx={{fontWeight: 'bold'}}>{entry.hikingMiles} miles hiked</Typography> :
@@ -52,6 +55,7 @@ const Entry = ({entry, previous, next}: {entry: EntryType, previous?: string, ne
         <Typography variant="h4" component="h1">{`${entry.date} - Day ${entry.day}`}</Typography>
         <Typography variant="h5">{entry.location}</Typography>
         {drivingMiles}
+        {drivingKilometers}
         {hikingMiles}
         {content}
         <Box sx={{textAlign: 'center'}}><ScrollToTop/>{navigation}</Box>

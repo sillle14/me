@@ -126,6 +126,72 @@ const heading_east: Array<EntryType> = [
             },
         ],
     },
+    {
+        date: 'July 7th',
+        day: 40,
+        location: 'Madison, WI',
+        content: [
+            {
+                type: 'p',
+                text: 'We spent the morning sharing photos from our trip with Grandma Eileen. Julia and I also went on a walk around Madison, down to Lake Mendota. In the afternoon, Grandma and I went to the Shabbat services in her retirement community which was really nice. And no visit would be complete without a few games of Rummikub in the evening!'
+                
+            },
+            {
+                type: 'img',
+                alt: 'A flower box with purple, red, and yellow flowers.',
+                source: 'madison_flowers',
+                caption: 'Flowers in Madison'
+            },
+        ],
+    },
+    {
+        date: 'July 8th',
+        day: 41,
+        location: 'Madison, WI - Perrysburg, OH',
+        drivingMiles: 393.4,
+        content: [
+            {
+                type: 'p',
+                text: 'This morning, we walked through the arts fair around Madison\'s capitol building. While I was sad to miss the farmer\'s market which is usually on Saturdays (and especially the spicy cheese bread!), there was a lot of beautiful art to see.'
+                
+            },
+            {
+                type: 'img',
+                alt: 'A street crowded with pedestrians lined with white tents with hanging art.',
+                source: 'art_fair',
+                caption: 'The Art Fair'
+            },
+            {
+                type: 'p',
+                text: 'On the drive to Ohio, we stopped in Goshen, IN where Julia\'s paternal grandmother grew up. On the road out of Goshen, we saw a bunch of horse drawn carriages in the road, used by the nearby Amish and Menonnite.'
+            },
+            {
+                type: 'img',
+                alt: 'A horse drawn carriage in the oncoming traffic lane taken through the windshield.',
+                source: 'horse_drawn',
+                caption: 'Horse drawn carriage on the road'
+            },
+        ],
+    },
+    {
+        date: 'July 9th',
+        day: 42,
+        location: 'Perrysburg, OH - Niagara Falls, ON',
+        drivingKilometers: 497.8,
+        content: [
+            {
+                type: 'p',
+                text: 'We drove up through Detroit and then part of Ontario today on our way to Niagara Falls. The town of Niagara Falls was really crowded and full of tourist attractions, included go-karts (with a falls view), a casino (with a falls view), mini-golf (with a falls view) and more! It was pretty overwhelming coming from the mountains just a few days ago. The falls themselves were amazing though!'
+                
+            },
+            {
+                type: 'img',
+                alt: 'A selfie of Lewis and Julia in front of two huge waterfalls.',
+                source: 'niagara_falls',
+                caption: 'Niagara Falls'
+            },
+        ],
+    },
 ]
 
 export default heading_east;

@@ -15,6 +15,7 @@ export type EntryType = {
     day: number;
     date: string;
     drivingMiles?: number;
+    drivingKilometers?: number;
     hikingMiles?: number;
     location: string;
     content: Array<Paragraph | Image>;
