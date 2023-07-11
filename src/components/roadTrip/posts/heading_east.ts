@@ -192,6 +192,30 @@ const heading_east: Array<EntryType> = [
             },
         ],
     },
+    {
+        date: 'July 10th',
+        day: 43,
+        location: 'Niagara Falls, ON - Boston, MA',
+        drivingMiles: 466.1,
+        content: [
+            {
+                type: 'p',
+                text: 'The last day of the trip! It was a rainy long drive all the way back to Boston. We met our friends Mason and Erica for a delicious lunch in Utica halfway.'
+                
+            },
+            {
+                type: 'p',
+                text: 'All told, we drove 8545.1 miles and hiked ~122.9 miles. As sad as we were for this amazing trip to be over, we were so excited to be reunited with our beautiful cat Francesca who had been staying with her cousins Dio and Jojo (and Emily and Alex).'
+                
+            },
+            {
+                type: 'img',
+                alt: 'The most adorable cat lying on a wood floor.',
+                source: 'fran',
+                caption: 'Francesca!'
+            },
+        ],
+    },
 ]
 
 export default heading_east;
