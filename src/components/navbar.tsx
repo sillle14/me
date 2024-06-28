@@ -41,11 +41,6 @@ const NavBar = () => {
                         component={RouterLink}
                         color="inherit"
                         underline="hover">Projects</Link>
-                    <Link
-                        to="road-trip"
-                        component={RouterLink}
-                        color="inherit"
-                        underline="hover">Road Trip 2023</Link>
                 </StyledLinkBox>
                 <Box display="flex">
                     <ContactLink ariaLabel="GitHub" href="https://github.com/sillle14"><GitHub /></ContactLink>

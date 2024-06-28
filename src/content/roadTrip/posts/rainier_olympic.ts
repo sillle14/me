@@ -1,4 +1,4 @@
-import { EntryType } from '../entryType'
+import { EntryType } from '../../../components/pages/entryType'
 
 const rainier_olympic: Array<EntryType> = [
     {
