@@ -13,6 +13,8 @@ import Projects from "./components/pages/projects";
 import TripBlog from "./components/pages/tripBlog";
 import roadTripPosts from "./content/roadTrip/posts";
 import RoadTripHome from "./content/roadTrip/main";
+import scandinaviaPosts from "./content/scandinavia2024/posts";
+import ScandinaviaHome from "./content/scandinavia2024/main";
 
 const theme = createTheme();
 
@@ -39,6 +41,14 @@ const App = () => {
                 element={
                   <TripBlog title="Road Trip 2023" posts={roadTripPosts}>
                     <RoadTripHome />
+                  </TripBlog>
+                }
+              />
+              <Route
+                path="scandinavia-2024/*"
+                element={
+                  <TripBlog title="Scandinavia 2024" posts={scandinaviaPosts}>
+                    <ScandinaviaHome />
                   </TripBlog>
                 }
               />

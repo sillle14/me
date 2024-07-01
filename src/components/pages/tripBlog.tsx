@@ -30,7 +30,7 @@ const TripBlog = ({
     <Page maxWidth="lg">
       <Link to="" component={RouterLink} underline="hover" color="inherit">
         <Typography variant="h3" component="h1">
-          Road Trip 2023
+          {title}
         </Typography>
       </Link>
       <Routes>

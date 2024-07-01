@@ -43,6 +43,7 @@ const Entry = ({
     if (content.type === "p") {
       return <Typography key={i}>{content.text}</Typography>;
     } else {
+      // TODO: don't hard code road-trip.
       const source = `https://storage.googleapis.com/road-trip/road-trip/${content.source}.jpeg`;
       const image = content.vert ? (
         <VertImage alt={content.alt} src={source} />
